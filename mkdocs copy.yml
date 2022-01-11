@@ -1,0 +1,30 @@
+site_name: Qcon User Guide
+theme:
+  name: material
+  palette: 
+    scheme: default
+    primary: yellow
+    accent: blue
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+  plugins:
+    - search
+    - tags   
+  extra:  
+    social:
+      - icon: material/email.svg
+      link: mailto:<courseproduction@bcit.ca>
+    copyright: Copyright &copy; 2021 - Course Production @ BCIT
+    generator: false
+  markdown_extensions:
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+      alternate_style: true 
+    - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+
