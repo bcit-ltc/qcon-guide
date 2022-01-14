@@ -53,15 +53,3 @@ Answers:
 6.	rose, flower; sweet, good
 7.	Michelson-Morely = Speed of light; Einstein = Theory of Relativity
 8.	Initiation; Planning; Execution; Control; Closing
-
-## Media – Images 
-
-Images can be inserted by pasting them right in the question text:
-
-9.	Which hazard is identified in the pictogram below?
-    1. *Corrosive
-    2. Reactive
-    3. Combustible
-    4. Bio-hazardous
-
-

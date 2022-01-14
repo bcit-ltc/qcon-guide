@@ -4,7 +4,7 @@ Before using Qcon, you’ll need to follow some simple formatting rules in your 
 
 You can include your answers with the questions (inline) or altogether at the end of the document. 
 
-### General Notes to Get You Started
+## General Notes to Get You Started
 * All questions in the document must begin with a number, followed by either a period (.) or a right parenthesis ()), a space, and then the question text.
 * All questions in the document must be numbered in sequence. 
 * Use ordered lists for the answer options. Ordered lists should be either lower-case or upper-case alpha.
@@ -12,3 +12,22 @@ You can include your answers with the questions (inline) or altogether at the en
 * Indicate the correct answer(s) by placing an asterisk (*) right before the answer text.
 * Subheadings, footers, and headers will be ignored.
 * The first heading in your document will be used as the folder name in the Learning Hub Question Library. If there is no level 1 heading then the file name of the Word document will be used instead. 
+
+## Media
+
+### Image
+
+Images can be inserted by pasting them right in the question text:
+
+9.	Which hazard is identified in the pictogram below?
+    1. *Corrosive
+    2. Reactive
+    3. Combustible
+    4. Bio-hazardous
+
+
+### Video
+
+### Hyperlink
+
+
