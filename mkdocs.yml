@@ -1,1 +1,51 @@
-site_name: My Docs
+site_name: Qcon User Guide
+site_url: https://qcon-user-guide.dev.ltc.bcit.ca
+repo_url: https://issues.ltc.bcit.ca/web-apps/qcon/qcon-user-guide.git
+# Set to false for local docs development
+strict: false
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+  font:
+    text: 'Work Sans'
+#  logo: 'assets/logo.svg'
+  features:
+  # - navigation.expand
+  - navigation.sections
+  # - navigation.tabs
+  - navigation.instant
+  - navigation.top
+  - navigation.instant
+  extra:  
+    # social:
+    #   - icon: material/email.svg
+    #   link: mailto:<courseproduction@bcit.ca>
+    copyright: Copyright &copy; 2021 - Course Production @ BCIT
+    generator: false
+plugins:
+  - search
+markdown_extensions:
+  - meta
+  - abbr
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+  - pymdownx.details
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materdialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+nav:
+  - index.md
+  - inline-answers.md
+  - end-answers.md
+  - respondus-comparison.md
