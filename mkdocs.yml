@@ -1,32 +1,29 @@
 site_name: Qcon User Guide
 site_url: https://qcon-user-guide.dev.ltc.bcit.ca
-repo_url: https://issues.ltc.bcit.ca/web-apps/qcon/qcon-user-guide.git
+
 # Set to false for local docs development
 strict: false
+
 theme:
   name: material
   palette:
     scheme: default
-    primary: blue
-    accent: blue
+    primary: teal
+    accent: green
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
+  language: en
   font:
     text: 'Work Sans'
-#  logo: 'assets/logo.svg'
   features:
-  # - navigation.expand
-  - navigation.sections
-  # - navigation.tabs
-  - navigation.instant
-  - navigation.top
-  - navigation.instant
-  extra:  
-    # social:
-    #   - icon: material/email.svg
-    #   link: mailto:<courseproduction@bcit.ca>
-    copyright: Copyright &copy; 2021 - Course Production @ BCIT
-    generator: false
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+
 plugins:
   - search
+
 markdown_extensions:
   - meta
   - abbr
@@ -44,6 +41,7 @@ markdown_extensions:
   # - pymdownx.emoji:
   #     emoji_index: !!python/name:materdialx.emoji.twemoji
   #     emoji_generator: !!python/name:materialx.emoji.to_svg
+
 nav:
   - index.md
   - inline-answers.md
