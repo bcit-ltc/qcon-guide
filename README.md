@@ -15,5 +15,5 @@ Information about how to use [Qcon](https://qcon.ltc.bcit.ca).
 ## Building
 
 1. Create an issue
-1. Create a merge request and a branch (eg. feat/2-add-new-gfx)
+1. Create a merge request and a branch (eg. `feat/2-add-new-gfx`)
 1. Commit and push to the repo; the CI/CD pipeline will build and push the image to the cluster specified in the `.gitlab-ci.yml` file.
