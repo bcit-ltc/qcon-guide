@@ -45,5 +45,7 @@ markdown_extensions:
 nav:
   - index.md
   - inline-answers.md
+  - 'Question Type':
+      - 'Multiple Choice': 'question-type/multiple-choice.md'
   - end-answers.md
   - respondus-comparison.md
