@@ -46,6 +46,12 @@ nav:
   - index.md
   - inline-answers.md
   - 'Question Type':
-      - 'Multiple Choice': 'question-type/multiple-choice.md'
+      - 'Multiple Choice (MC)': 'question-type/multiple-choice.md'
+      - 'True/False (TF)': 'question-type/true-false.md'
+      - 'Multiple-Select (MS)': 'question-type/multiple-select.md'
+      - 'Fill-in the Blanks (FIB)': 'question-type/fill-in-the-blanks.md'
+      - 'Matching (MAT)': 'question-type/matching.md'
+      - 'Ordering (ORD)': 'question-type/ordering.md'
+      - 'Written Response (WR)': 'question-type/written-response.md'
   - end-answers.md
   - respondus-comparison.md
