@@ -12,6 +12,7 @@ Information about how to use [Qcon](https://qcon.ltc.bcit.ca).
 
     On Windows:
     MSYS_NO_PATHCONV=1 docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+
 1. Browse to [http://localhost:8000](http://localhost:8000) to see site with *live reload* enabled.
 
 ## Building
