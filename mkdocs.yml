@@ -45,6 +45,7 @@ markdown_extensions:
 nav:
   - index.md
   - inline-answers.md
+  - import-to-lh.md
   - 'Question Type':
       - 'Multiple Choice (MC)': 'question-type/multiple-choice.md'
       - 'True/False (TF)': 'question-type/true-false.md'
