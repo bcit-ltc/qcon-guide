@@ -17,17 +17,16 @@ You can include your answers with the questions (inline) or altogether at the en
 
 ### Image
 
-Images can be inserted by pasting them right in the question text:
+Images can be added to the question as long as it is in line with the text. To make the image inline with the text, you can:
+   * right click on the image
+   * Click on "Wrap Text"
+   * Click on "In Line with Text"
 
-9.	Which hazard is identified in the pictogram below?
-    1. *Corrosive
-    2. Reactive
-    3. Combustible
-    4. Bio-hazardous
+If your image move position after doing the steps above, that means the image was on a different styling before. Just move the image to where you want it once the steps above is done.
 
 
 ### Video
+At this moment qcon doesn't accept embeded video inside the Word file. Please do this once all the questions has been uploaded to Learning Hub
 
 ### Hyperlink
-
-
+Qcon accepts hyperlink from Word document and will automatically converted them.
