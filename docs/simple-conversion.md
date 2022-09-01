@@ -1,13 +1,17 @@
-# Answers Inserted Inline
+# Simple Conversion with Inline Answers
 
-## True/False
+Below is the straight-forward questions from each question type with the answer(s) inserted to it.
+For more variations of the question types, please check its individual page on the side bar menu.
+
+## True/False (TF)
 
 ```
 1.	The symbol "Gl" represents the reference electrode:
     a. True
     b. *False
 ```
-## Multiple Choice
+
+## Multiple Choice (MC)
 
 ```
 2.	How does organic friction material differ from semi-metallic materials?
@@ -16,7 +20,8 @@
     c. Requires higher pedal pressure
     d. Used on front disc brakes
 ```
-## Multi-Select
+
+## Multi-Select (MS)
 
 ```
 3.	Which of the following individuals are credited with determining the exact speed of light? Select all that apply.
@@ -26,26 +31,14 @@
     d. Thomas Edison
 ```
 
-!!! Note
-
-    If the question type is multi-select but there is only one correct answer, you will need to include “Type: MS” before the question. Otherwise, QCon will treat this question as multiple choice. Example:
-
-    Type: MS
-
-    1.	Which of the following individuals are credited with determining the exact speed of light? Select all that apply.
-        1. Nikola Tesla
-        2. *Albert Michelson
-        3. Edward Williams Morley
-        4. Thomas Edison
-
-## Long-Answer/Written Response/Essay
+## Written Response/Long-Answer/Essay (WR)
 
 ```
 5.	How is the Michelson-Morely experiment related to Albert Einstein’s theory of relativity?
     a. In 1887, Albert Michelson and Edward Morely carried out experiments…
 ```
 
-Fill in the Blank
+## Fill in the Blank (FIB)
 
 For each word(s) that will be blank, use square brackets and then include all acceptable forms of the answer inside. Spelling counts!
 

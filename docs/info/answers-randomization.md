@@ -1,4 +1,4 @@
-# Randomizing Answer Order
+# Randomizing the Answers Order
 
    - Only Multiple Choice (MC) and Multi-Select (MS) answers can be either randomize or not.
    - True/False (TF) and Written Response (WR) **CANNOT** be randomize.

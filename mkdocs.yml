@@ -21,6 +21,9 @@ theme:
     - navigation.instant
     - navigation.top
 
+extra_css:
+  - css/qcon-guide.css
+
 plugins:
   - search
 
@@ -44,8 +47,8 @@ markdown_extensions:
 
 nav:
   - index.md
-  - inline-answers.md
-  - import-to-lh.md
+  - 'Simple Conversion': 'simple-conversion.md'
+  - 'Uploading to Learning Hub': 'import-to-lh.md'
   - 'Question Type':
       - 'Multiple Choice (MC)': 'question-type/multiple-choice.md'
       - 'True/False (TF)': 'question-type/true-false.md'
@@ -54,6 +57,7 @@ nav:
       - 'Matching (MAT)': 'question-type/matching.md'
       - 'Ordering (ORD)': 'question-type/ordering.md'
       - 'Written Response (WR)': 'question-type/written-response.md'
-  - end-answers.md
-  - answer-randomization.md
-  - respondus-comparison.md
+  - 'Info':
+    - 'Using Answer Key at the end of the Document': 'info/end-answer-key.md' 
+    - 'Randomizing the Answers': 'info/answers-randomization.md'
+    - 'Respondus Comparison': 'info/respondus-comparison.md'
