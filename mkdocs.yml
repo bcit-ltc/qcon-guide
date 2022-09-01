@@ -55,4 +55,5 @@ nav:
       - 'Ordering (ORD)': 'question-type/ordering.md'
       - 'Written Response (WR)': 'question-type/written-response.md'
   - end-answers.md
+  - answer-randomization.md
   - respondus-comparison.md
