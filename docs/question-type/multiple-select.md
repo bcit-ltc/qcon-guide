@@ -3,6 +3,7 @@
 !!! Note
     - Mark the correct answers with an asterisk (`*`).
     - If there is only one correct answer, the question will automatically converted to a Multiple Choice (MC), **unless** the `"Type: MS"` is included in the question header. (Check the end of the page for the example)
+    - MS grading type always set to "Correct answers" in qcon. You can change this manually once it's uploaded to Learning Hub.
 
 
 ## MS with answer included

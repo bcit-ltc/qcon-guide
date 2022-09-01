@@ -3,6 +3,7 @@
 !!! Note
 
     - Please typed in the correct answer order as it would be used as the correct order. Randomizing the answer will happen automatically during the conversion. 
+    - ORD grading type always set to "Correct answers" in qcon. You can change this manually once it's uploaded to Learning Hub.
 
 ## ORD with answer included
 

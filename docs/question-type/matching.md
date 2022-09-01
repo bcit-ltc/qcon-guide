@@ -3,6 +3,7 @@
 !!! Note
 
     - Matching question answers order is **ALWAYS** randomized
+    - MAT grading type always set to "Correct answers" in qcon. You can change this manually once it's uploaded to Learning Hub.
 
 ## MAT with answer included
 
