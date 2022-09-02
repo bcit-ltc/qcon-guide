@@ -9,7 +9,7 @@
 ## MS with answer included
 
 ```
-1.	Select all of the **Federal Holidays** from the list below:
+1.	Select all of the Federal Holidays from the list below:
     a. *Victoria Day
     b. Canada Day
     c. *Civic Holiday
@@ -21,7 +21,7 @@
 ## MS with general feedback
 
 ```
-1.	Select all of the **Federal Holidays** from the list below:
+1.	Select all of the Federal Holidays from the list below:
     @feedback: Victoria Day, Civic Holiday, and Boxing Day is categorized as Federal Public Holidays.
 
     a. *Victoria Day
@@ -35,7 +35,7 @@
 ## MS with option specific feedback
 
 ```
-1.	Select all of the **Federal Holidays** from the list below:
+1.	Select all of the Federal Holidays from the list below:
 
     a. *Victoria Day
     @feedback: Federal Holiday
@@ -63,7 +63,7 @@
     - Only include the correct options in the answer key and **NOT** the full text.
 
 ```
-1.	Select all of the **Federal Holidays** from the list below:
+1.	Select all of the Federal Holidays from the list below:
     a. *Victoria Day
     b. Canada Day
     c. *Civic Holiday
@@ -88,7 +88,7 @@ Answers:
 
     ```
     Randomize: true
-    1.	Select all of the **Federal Holidays** from the list below:
+    1.	Select all of the Federal Holidays from the list below:
         a. *Victoria Day
         b. Canada Day
         c. *Civic Holiday
@@ -101,7 +101,7 @@ Answers:
     ```
     Type: MS
     
-    1.	Select all of the **Federal Holidays** from the list below:
+    1.	Select all of the Federal Holidays from the list below:
         a. Good Friday
         b. Canada Day
         c. *Civic Holiday
