@@ -1,5 +1,5 @@
 site_name: Qcon User Guide
-site_url: https://qcon-user-guide.dev.ltc.bcit.ca
+site_url: https://qcon-user-guide.ltc.bcit.ca
 
 # Set to false for local docs development
 strict: false
@@ -60,4 +60,5 @@ nav:
   - 'Info':
     - 'Using Answer Key at the end of the Document': 'info/end-answer-key.md' 
     - 'Randomizing the Answers': 'info/answers-randomization.md'
+    - 'Ordered List': 'info/ordered-list.md'
     - 'Respondus Comparison': 'info/respondus-comparison.md'
