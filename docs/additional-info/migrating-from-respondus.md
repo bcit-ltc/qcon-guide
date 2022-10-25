@@ -16,15 +16,39 @@ Here are some examples of the differences between Qcon and Respondus:
 
 ## Multiple Choice (MC)
 
-| Qcon | Respondus |
-|:-------------:|:----------:|
-![comparison-mc-inline-qcon](../assets/comparison-mc-inline-qcon.png){ width="300" } | **only available when using plain text or *answer key*** ![comparison-mc-inline-plain](../assets/comparison-mc-inline-plain.png){ width="300" } |
+<!-- markdownlint-disable MD033 -->
+<!-- necessary for positioning -->
+<table markdown>
+  <tr>
+    <th>Qcon</th>
+    <th>Respondus</th>
+  </tr><tr>
+    <td>![comparison-mc-inline-qcon](../assets/comparison-mc-inline-qcon.png){ width="300" }</td>
+    <td>
+      <figure markdown>
+        ![comparison-mc-inline-plain](../assets/comparison-mc-inline-plain.png){ width="380" }
+        <figcaption>- **only available when using plain text or *answer key***</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
 
 ## Multiple Select (MS)
 
-| Qcon | Respondus |
-|:-------------:|:----------:|
-![comparison-ms-inline-qcon](../assets/comparison-ms-inline-qcon.png){ width="300" } | **only available when using plain text or answer key** ![comparison-ms-inline-plain](../assets/comparison-ms-inline-plain.png){ width="300" } |
+<table markdown>
+  <tr>
+    <th>Qcon</th>
+    <th>Respondus</th>
+  </tr><tr>
+    <td>![comparison-mc-inline-qcon](../assets/comparison-ms-inline-qcon.png){ width="300" }</td>
+    <td>
+      <figure markdown>
+        ![comparison-mc-inline-plain](../assets/comparison-ms-inline-plain.png){ width="380" }
+        <figcaption>- **only available when using plain text or *answer key***</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
 
 ## Fill-in-blank (FIB)
 

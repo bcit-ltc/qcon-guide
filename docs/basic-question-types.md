@@ -33,7 +33,7 @@ Additional options and question type details are available through the links in 
 
 === "Output"
 
-    ![preview-multiple-choice](./assets/preview-mc.png){ width="280" }
+    ![preview-multiple-choice](./assets/preview-mc.png){ width="350" }
 
 ## Multi-Select (MS)
 
@@ -47,7 +47,7 @@ Additional options and question type details are available through the links in 
 
 === "Output"
 
-    ![preview-multiple-select](./assets/preview-ms.png){ width="280" }
+    ![preview-multiple-select](./assets/preview-ms.png){ width="380" }
 
 ## Written Response/Long-Answer/Essay (WR)
 
