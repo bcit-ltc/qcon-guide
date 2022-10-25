@@ -62,6 +62,7 @@ nav:
       - 'Ordering (ORD)': 'detailed-question-types/ordering.md'
   -  Additional Information:
       - additional-info/sections.md
+      - 'Ordered List Details': 'additional-info/ordered-list-details.md'
       - 'Using an Answer Key': 'additional-info/end-answer-key.md' 
       - 'Randomizing Answers': 'additional-info/answer-randomization.md'
       - additional-info/migrating-from-respondus.md
