@@ -1,8 +1,8 @@
 site_name: Qcon Guide
 site_url: https://qcon-guide.ltc.bcit.ca
 
-repo_name: qcon-guide
-repo_url: https://issues.ltc.bcit.ca/web-apps/qcon/qcon-user-guide
+# repo_name: qcon-guide
+# repo_url: https://issues.ltc.bcit.ca/web-apps/qcon/qcon-user-guide
 
 theme:
   name: material
@@ -49,23 +49,6 @@ markdown_extensions:
 
 nav:
   - index.md
-<<<<<<< Updated upstream
-  - 'Simple Conversion': 'simple-conversion.md'
-  - 'Uploading to Learning Hub': 'import-to-lh.md'
-  - 'Question Type':
-      - 'Multiple Choice (MC)': 'question-type/multiple-choice.md'
-      - 'True/False (TF)': 'question-type/true-false.md'
-      - 'Multiple-Select (MS)': 'question-type/multiple-select.md'
-      - 'Fill-in the Blanks (FIB)': 'question-type/fill-in-the-blanks.md'
-      - 'Matching (MAT)': 'question-type/matching.md'
-      - 'Ordering (ORD)': 'question-type/ordering.md'
-      - 'Written Response (WR)': 'question-type/written-response.md'
-  - 'Info':
-    - 'Using Answer Key at the end of the Document': 'info/end-answer-key.md' 
-    - 'Randomizing the Answers': 'info/answers-randomization.md'
-    - 'Ordered List': 'info/ordered-list.md'
-    - 'Respondus Comparison': 'info/respondus-comparison.md'
-=======
   - basic-question-types.md
   - media-links.md
   - qcon-process.md
@@ -82,4 +65,3 @@ nav:
       - 'Using an Answer Key': 'additional-info/end-answer-key.md' 
       - 'Randomizing Answers': 'additional-info/answer-randomization.md'
       - additional-info/migrating-from-respondus.md
->>>>>>> Stashed changes
