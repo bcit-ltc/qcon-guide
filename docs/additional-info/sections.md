@@ -1,15 +1,19 @@
+---
+hide:
+    - toc
+---
 # Sections
 
 Questions can be grouped into separate sections through the use of `#section` markers.
 
 !!! note
 
-    Use Word style headings to specify the name of the section.
+    Use Word style headings to specify section names.
 
-Your Word document could look like this:
+=== "Your Word document could look like this"
 
-![example-sections](../assets/example-sections.png)
+    ![example-sections](../assets/migrating-sections-example-word.png){ width="620" }
 
-The sections in your LMS would look something like this:
+=== "The sections would look like this:"
 
-![example-sections-in-lms](../assets/example-sections2.jpeg){ width="450" }
+    ![example-sections-in-lms](../assets/migrating-sections-example-d2l.png){ width="320" }
