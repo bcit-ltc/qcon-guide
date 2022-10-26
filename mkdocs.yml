@@ -1,11 +1,12 @@
-site_name: Qcon User Guide
-site_url: https://qcon-user-guide.ltc.bcit.ca
+site_name: Qcon Guide
+site_url: https://qcon-guide.ltc.bcit.ca
 
-# Set to false for local docs development
-strict: false
+# repo_name: qcon-guide
+# repo_url: https://issues.ltc.bcit.ca/web-apps/qcon/qcon-user-guide
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     scheme: default
     primary: teal
@@ -28,37 +29,40 @@ plugins:
   - search
 
 markdown_extensions:
-  - meta
   - abbr
   - pymdownx.highlight
   - pymdownx.superfences
-  - pymdownx.tasklist:
-      clickable_checkbox: true
   - pymdownx.details
   - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - def_list
+  - pymdownx.tasklist:
+      clickable_checkbox: true
   - footnotes
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.tabbed:
       alternate_style: true 
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:materdialx.emoji.twemoji
-  #     emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   - index.md
-  - 'Simple Conversion': 'simple-conversion.md'
-  - 'Uploading to Learning Hub': 'import-to-lh.md'
-  - 'Question Type':
-      - 'Multiple Choice (MC)': 'question-type/multiple-choice.md'
-      - 'True/False (TF)': 'question-type/true-false.md'
-      - 'Multiple-Select (MS)': 'question-type/multiple-select.md'
-      - 'Fill-in the Blanks (FIB)': 'question-type/fill-in-the-blanks.md'
-      - 'Matching (MAT)': 'question-type/matching.md'
-      - 'Ordering (ORD)': 'question-type/ordering.md'
-      - 'Written Response (WR)': 'question-type/written-response.md'
-  - 'Info':
-    - 'Using Answer Key at the end of the Document': 'info/end-answer-key.md' 
-    - 'Randomizing the Answers': 'info/answers-randomization.md'
-    - 'Ordered List': 'info/ordered-list.md'
-    - 'Respondus Comparison': 'info/respondus-comparison.md'
+  - basic-question-types.md
+  - media-links.md
+  - qcon-process.md
+  - Question Type Details:
+      - 'True/False (TF)': 'detailed-question-types/true-false.md'
+      - 'Multiple Choice (MC)': 'detailed-question-types/multiple-choice.md'
+      - 'Multiple-Select (MS)': 'detailed-question-types/multiple-select.md'
+      - 'Written Response (WR)': 'detailed-question-types/written-response.md'
+      - 'Fill-in-Blank (FIB)': 'detailed-question-types/fill-in-blanks.md'
+      - 'Matching (MAT)': 'detailed-question-types/matching.md'
+      - 'Ordering (ORD)': 'detailed-question-types/ordering.md'
+  -  Additional Information:
+      - additional-info/sections.md
+      - 'Ordered List Details': 'additional-info/ordered-list-details.md'
+      - 'Using an Answer Key': 'additional-info/end-answer-key.md' 
+      - 'Randomizing Answers': 'additional-info/answer-randomization.md'
+      - additional-info/migrating-from-respondus.md

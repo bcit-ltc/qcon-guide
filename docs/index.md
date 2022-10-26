@@ -1,32 +1,68 @@
-# Getting Started
+---
+title: Overview
+---
 
-Before using Qcon, you’ll need to follow some simple formatting rules in your Word document. This User Guide will show you how. 
+!!! info inline end ""
 
-You can include your answers with the questions (inline) or altogether at the end of the document. 
+    <figure markdown>
+    [https://qcon.ltc.bcit.ca](https://qcon.ltc.bcit.ca)
+    </figure>
 
-## General Notes to Get You Started
-* All questions in the document must begin with a number, followed by either a period (.) or a right parenthesis ()), a space, and then the question text.
-* All questions in the document must be numbered in sequence. 
-* Use ordered lists for the answer options. Ordered lists should be either lower-case or upper-case alpha.
-* Similar to the question text, start each answer option with a letter, then a period (.) or a right parenthesis ()), a space, and then the answer text.
-* Indicate the correct answer(s) by placing an asterisk (*) right before the answer text.
-* Subheadings, footers, and headers will be ignored.
-* The first heading in your document will be used as the folder name in the Learning Hub Question Library. If there is no level 1 heading then the file name of the Word document will be used instead. 
+<!-- markdownlint-disable MD025 -->
+# What is Qcon?
 
-## Media
+**Qcon is a conversion tool that makes it easy to manage online learning questions.**
 
-### Image
+<!-- markdownlint-disable MD033 -->
+<figure markdown="1">
+![word-to-lms](./assets/word-to-lms.png)
+<figcaption>Write questions using Word and then upload them to a Learning Management System (LMS).</figcaption>
+</figure>
 
-Images can be added to the question as long as it is in line with the text. To make the image inline with the text, you can:
-   * right click on the image
-   * Click on "Wrap Text"
-   * Click on "In Line with Text"
+Before using Qcon you’ll need to follow some simple formatting rules.
 
-If your image move position after doing the steps above, that means the image was on a different styling before. Just move the image to where you want it once the steps above is done.
+!!! note "Section headings"
 
+    !!! info inline end ""
 
-### Video
-At this moment qcon doesn't accept embeded video inside the Word file. Please do this once all the questions has been uploaded to Learning Hub
+        If there is no **Heading 1** style then the filename will be used instead.
 
-### Hyperlink
-Qcon accepts hyperlink from Word document and will automatically converted them.
+    The first heading in your document will be used as the section name in your question library.
+
+!!! note "Question numbering"
+
+    All questions should be numbered in sequence.
+
+!!! note "Question format"
+
+    !!! info inline end ""
+    
+        ![sample-question](./assets/sample-question.png){ width="180" }
+
+    Questions should *begin with a number* followed by either a period (**.**) or a right parenthesis (**)**), a space, and then the question text.
+    
+    Use the Word *Numbering* list style for best results.
+
+!!! note "Correct answers"
+
+    !!! info inline end ""
+
+        Correct answers are indicated with an asterisk (*****).
+
+    Indicate your correct answers with an asterisk or in an answer key section at the end of the document.
+
+    Asterisks should be before the answer text and after the period or parentheses.
+
+!!! note "Answer numbering"
+
+    !!! info inline end ""
+
+        Answers should be lower-case or upper-case alphabet lists.
+
+    Use ordered lists for the answer options.
+
+    Start each answer option with a letter, then a period (**.**) or a right parenthesis (**)**), a space, and then the answer text.
+
+!!! note "Ignored elements"
+
+    Comments, subheadings, footers, and headers will be ignored.
