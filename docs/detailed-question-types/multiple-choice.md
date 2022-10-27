@@ -8,57 +8,76 @@ Correct answers are specified *inline* with an asterisk (*****).
 
 ## Basic example
 
-    1. When is Labour Day celebrated each year?
-        a. The first Monday in August
-        b. The second Monday in October
-        c. *The first Monday in September
-        d. The third Monday of May
+=== "Text"
+
+        1. When is Labour Day celebrated each year?
+            a. The first Monday in August
+            b. The second Monday in October
+            c. *The first Monday in September
+            d. The third Monday of May
+
+=== "Output"
+
+    ![preview-mc](../assets/preview-mc.png)
 
 ## With general feedback
 
-    1. When is Labour Day celebrated each year?
-        @feedback: Labour Day is a statutory public holiday in Canada that occurs on the first Monday in September.
+=== "Text"
 
-        a. The first Monday in August
-        b. The second Monday in October
-        c. *The first Monday in September
-        d. The third Monday of May
+        1. When is Labour Day celebrated each year?
+            @feedback: Labour Day is a statutory public holiday in Canada that occurs on the first Monday in September.
+
+            a. The first Monday in August
+            b. The second Monday in October
+            c. *The first Monday in September
+            d. The third Monday of May
+
+=== "Output"
+
+    ![preview-mc-general](../assets/preview-mc-general.png)
 
 ## With option-specific feedback
 
-    1. When is Labour Day celebrated each year?
+=== "Text"
 
-        a. The first Monday in August
-        @feedback: Civic Holiday
+        1. When is Labour Day celebrated each year?
 
-        b. The second Monday in October
-        @feedback: Thanksgiving Day
+            a. The first Monday in August
+            @feedback: Civic Holiday
 
-        c. *The first Monday in September
-        @feedback: Labour Day
+            b. The second Monday in October
+            @feedback: Thanksgiving Day
 
-        d. The third Monday of May
-        @feedback: Victoria Day
+            c. *The first Monday in September
+            @feedback: Labour Day
 
-## With *answer key*
+            d. The third Monday of May
+            @feedback: Victoria Day
+
+=== "Output"
+
+    ![preview-mc-specific](../assets/preview-mc-specific.png)
+
+## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
 
     Only include the correct option in the answer key, **NOT** the full text.
 
-<!-- markdownlint-disable MD046 -->
-```text
+=== "Text"
 
-1. When is Labour Day celebrated each year?
-    a. The first Monday in August
-    b. The second Monday in October
-    c. The first Monday in September
-    d. The third Monday of May
+        1. When is Labour Day celebrated each year?
+            a. The first Monday in August
+            b. The second Monday in October
+            c. The first Monday in September
+            d. The third Monday of May
 
-2. ...
+        2. ...
 
-Answers:
-    1. c
-    2. ...
+        Answers:
+            1. c
+            2. ...
 
-```
+=== "Output"
+
+    ![preview-basic-tf](../assets/preview-mc.png)

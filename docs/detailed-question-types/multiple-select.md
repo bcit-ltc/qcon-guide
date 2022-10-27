@@ -9,76 +9,95 @@ Correct answers are specified *inline* with an asterisk (*****).
 
 ## Basic example
 
-    1. Select all of the Federal Holidays from the list below:
-        a. *Victoria Day
-        b. Canada Day
-        c. *National Day of Truth and Reconciliation
-        d. *Civic Holiday
-        e. Labour Day
-        f. Christmas Day
-        g. *Boxing Day
+=== "Text"
+
+        1. Select all of the Federal Holidays from the list below:
+            a. *Victoria Day
+            b. Canada Day
+            c. *National Day of Truth and Reconciliation
+            d. *Civic Holiday
+            e. Labour Day
+            f. Christmas Day
+            g. *Boxing Day
+
+=== "Output"
+
+    ![preview-ms](../assets/preview-ms.png)
 
 ## With general feedback
 
-    1. Select all of the Federal Holidays from the list below:
-        @feedback: Victoria Day, Civic Holiday, and Boxing Day is categorized as Federal Public Holidays.
+=== "Text"
 
-        a. *Victoria Day
-        b. Canada Day
-        c. *National Day of Truth and Reconciliation
-        d. *Civic Holiday
-        e. Labour Day
-        f. Christmas Day
-        g. *Boxing Day
+        1. Select all of the Federal Holidays from the list below:
+            @feedback: Victoria Day, Civic Holiday, and Boxing Day are categorized as Federal Public Holidays.
+
+            a. *Victoria Day
+            b. Canada Day
+            c. *National Day of Truth and Reconciliation
+            d. *Civic Holiday
+            e. Labour Day
+            f. Christmas Day
+            g. *Boxing Day
+
+=== "Output"
+
+    ![preview-ms-general](../assets/preview-ms-general.png)
 
 ## With option-specific feedback
 
-    1. Select all of the Federal Holidays from the list below:
+=== "Text"
 
-        a. *Victoria Day
-        @feedback: Federal Holiday
+        1. Select all of the Federal Holidays from the list below:
 
-        b. Canada Day
-        @feedback: National Holiday
+            a. *Victoria Day
+            @feedback: Federal Holiday
 
-        c. *National Day of Truth and Reconciliation
-        @feedback: Federal Holiday
+            b. Canada Day
+            @feedback: National Holiday
 
-        d. *Civic Holiday
-        @feedback: Federal Holiday
+            c. *National Day of Truth and Reconciliation
+            @feedback: Federal Holiday
 
-        e. Labour Day
-        @feedback: National Holiday
+            d. *Civic Holiday
+            @feedback: Federal Holiday
 
-        f. Christmas Day
-        @feedback: National Holiday
+            e. Labour Day
+            @feedback: National Holiday
 
-        g. *Boxing Day
-        @feedback: Federal Holiday
+            f. Christmas Day
+            @feedback: National Holiday
 
-## With *answer key*
+            g. *Boxing Day
+            @feedback: Federal Holiday
+
+=== "Output"
+
+    ![preview-ms-specific](../assets/preview-ms-specific.png)
+
+## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
 
     - Use a comma (**,**) to separate the correct answers.
     - Only include the correct options in the answer key, **NOT** the full text.
 
-<!-- markdownlint-disable MD046 -->
-```text
+=== "Text"
 
-1. Select all of the Federal Holidays from the list below:
-    a. *Victoria Day
-    b. Canada Day
-    c. *National Day of Truth and Reconciliation
-    d. *Civic Holiday
-    e. Labour Day
-    f. Christmas Day
-    g. *Boxing Day
+        1. Select all of the Federal Holidays from the list below:
+            a. *Victoria Day
+            b. Canada Day
+            c. *National Day of Truth and Reconciliation
+            d. *Civic Holiday
+            e. Labour Day
+            f. Christmas Day
+            g. *Boxing Day
 
-2. ...
+        2. ...
 
-Answers:
-    1. a, c, d, g
-    2. ...
+        Answers:
+            1. a, c, d, g
+            2. ...
 
-```
+=== "Output"
+
+    ![preview-ms](../assets/preview-ms.png)

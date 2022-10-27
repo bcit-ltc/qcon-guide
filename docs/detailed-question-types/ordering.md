@@ -9,41 +9,54 @@ An ordering question asks the participant to list terms in a correct sequence.
 
 ## Basic example
 
-    1. Order the following holidays in chronological order:
-        a. New Year's Day
-        b. Good Friday
-        c. Canada Day
-        d. Labour Day
-        e. National Day of Truth and Reconciliation
-        f. Christmas Day
+=== "Text"
+
+        1. Order the following holidays in chronological order:
+            a. New Year's Day
+            b. Good Friday
+            c. Canada Day
+            d. Labour Day
+            e. National Day of Truth and Reconciliation
+            f. Christmas Day
+
+=== "Output"
+
+    ![preview-ord](../assets/preview-ord.png)
 
 ## With general feedback
 
-    1. Order the following holidays in chronological order:
-        @feedback: From the beginning of the year, the order is New Year's Day, Good Friday, Canada Day, Labour Day, then Christmas Day.
+=== "Text"
 
-        a. New Year's Day
-        b. Good Friday
-        c. Canada Day
-        d. Labour Day
-        e. National Day of Truth and Reconciliation
-        f. Christmas Day
+        1. Order the following holidays in chronological order:
+            @feedback: From the beginning of the year, the order is New Year's Day, Good Friday, Canada Day, Labour Day, then Christmas Day.
 
-## With *answer key*
+            a. New Year's Day
+            b. Good Friday
+            c. Canada Day
+            d. Labour Day
+            e. National Day of Truth and Reconciliation
+            f. Christmas Day
+
+=== "Output"
+
+    ![preview-ord-general](../assets/preview-ord-general.png)
+
+## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
 
     - Use a semicolon (**;**) to separate terms.
     - Do **NOT** end the answer with a period (**.**) or it will be taken as part of the answer.
 
-<!-- markdownlint-disable MD046 -->
-```text
+=== "Text"
 
-1. Order the following holidays on a chronological order.
-2. ...
+        1. Order the following holidays on a chronological order.
+        2. ...
 
-Answers:
-    1. New Year's Day; Good Friday; Canada Day; Labour Day; National Day of Truth and Reconciliation; Christmas Day
-    2. ...
+        Answers:
+            1. New Year's Day; Good Friday; Canada Day; Labour Day; National Day of Truth and Reconciliation; Christmas Day
+            2. ...
 
-```
+=== "Output"
+
+    ![preview-ord](../assets/preview-ord.png)

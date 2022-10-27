@@ -8,19 +8,26 @@ For each word(s) that will be blank, use square brackets and then include all ac
 
 ## Basic example
 
-<!-- markdownlint-disable MD046 -->
-```text
+=== "Text"
 
-1. Canadian [Thanksgiving, Thanksgiving day] falls on the second [Monday] in October.
+        1. Canadian [Thanksgiving, Thanksgiving day] falls on the second [Monday] in October.
 
-```
+=== "Output"
+
+    ![preview-fib](../assets/preview-fib.png)
 
 ## With general feedback
 
-    1. Canadian [Thanksgiving, Thanksgiving day] falls on the second [Monday] in October.
-        @feedback: Thanksgiving is a fall harvest celebration.
+=== "Text"
 
-## With *answer key*
+        1. Canadian [Thanksgiving, Thanksgiving day] falls on the second [Monday] in October.
+            @feedback: Thanksgiving is a fall harvest celebration.
+
+=== "Output"
+
+    ![preview-fib-general](../assets/preview-fib-general.png)
+
+## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
 
@@ -33,13 +40,15 @@ For each word(s) that will be blank, use square brackets and then include all ac
     - Use a semicolon (**;**) to separate blanks.
     - Do **NOT** end the answer with a period (**.**) or it will be taken as part of the answer.
 
-```text
+=== "Text"
 
-1. Canadian [*] falls on the second [*] in October.
-2. ...
+        1. Canadian [*] falls on the second [*] in October.
+        2. ...
 
-Answers:
-    1. Thanksgiving, Thanksgiving day; Monday
-    2. ...
+        Answers:
+            1. Thanksgiving, Thanksgiving day; Monday
+            2. ...
 
-```
+=== "Output"
+
+    ![preview-fib](../assets/preview-fib.png)
