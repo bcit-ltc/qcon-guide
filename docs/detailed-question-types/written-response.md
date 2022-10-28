@@ -22,7 +22,23 @@ Written response type questions - also known as long answers or essays - ask the
 
 === "Output"
 
-    ![preview-wr](../assets/preview-wr.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+        
+            ![example-wr](../assets/example-wr.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ## Basic example - Shorthand
 
@@ -38,7 +54,23 @@ Written response type questions - also known as long answers or essays - ask the
 
 === "Output"
 
-    ![preview-wr](../assets/preview-wr.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+        
+            ![example-wr](../assets/example-wr.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ## With general feedback
 
@@ -57,8 +89,25 @@ Written response type questions - also known as long answers or essays - ask the
 
 === "Output"
 
-    ![preview-wr-general](../assets/preview-wr-general.png)
+    === "Brightspace D2L"
 
+        !!! quote ""
+
+            ![example-wr-general](../assets/example-wr-general.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
+
+<!-- markdownlint-disable MD033 -->
 ## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
@@ -79,4 +128,20 @@ Written response type questions - also known as long answers or essays - ask the
 
 === "Output"
 
-    ![preview-wr](../assets/preview-wr.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+
+            ![example-wr](../assets/example-wr.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->

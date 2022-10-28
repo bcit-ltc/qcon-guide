@@ -1,19 +1,35 @@
----
-hide:
-    - toc
----
 # Sections
 
-Questions can be grouped into separate sections through the use of `#section` markers.
+Questions can be grouped into separate sections.
 
 !!! note
 
-    Use Word style headings to specify section names.
+    - start a new section with **`#section`**
+    - end a section with **`/section`**
+    - use Word headings to specify section names
 
-=== "Word document example"
+=== "Text"
 
-    ![example-sections](../assets/migrating-sections-example-word.png){ width="620" }
+    !!! quote ""
 
-=== "Sections output example"
+        ![example-sections](../assets/example-sections-word.png){ width="620" }
 
-    ![example-sections-in-lms](../assets/migrating-sections-example-d2l.png){ width="320" }
+=== "Output"
+
+    === "Brightspace D2L"
+
+        !!! quote ""
+
+            ![example-sections-in-lms](../assets/example-sections-d2l.png){ width="320" }
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->

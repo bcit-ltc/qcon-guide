@@ -20,7 +20,23 @@ Matches are two terms separated by an equals sign (**=**).
 
 === "Output"
 
-    ![preview-mat](../assets/preview-mat.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+
+            ![example-mat](../assets/example-mat.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ## With general feedback
 
@@ -37,8 +53,25 @@ Matches are two terms separated by an equals sign (**=**).
 
 === "Output"
 
-    ![preview-mat-general](../assets/preview-mat-general.png)
+    === "Brightspace D2L"
 
+        !!! quote ""
+
+            ![example-mat-general](../assets/example-mat-general.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
+
+<!-- markdownlint-disable MD033 -->
 ## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
@@ -56,7 +89,23 @@ Matches are two terms separated by an equals sign (**=**).
 
 === "Output"
 
-    ![preview-mat](../assets/preview-mat.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+
+            ![example-mat](../assets/example-mat.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ??? note "Special case when equals sign is within the match"
 

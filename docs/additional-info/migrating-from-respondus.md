@@ -54,13 +54,13 @@ Here are some examples of the differences between Qcon and Respondus:
 
 | Qcon | Respondus |
 |:-------------:|:----------:|
-![comparison-fib-end-word](../assets/comparison-fib-end-word.png){ width="310" } | **only available inline** |
+![comparison-fib-end-word](../assets/comparison-fib-end-word.png){ width="310" } | ***- only available inline*** |
 
 ## Ordering (ORD)
 
 | Qcon | Respondus |
 |:-------------:|:----------:|
-![comparison-ord-end-word](../assets/comparison-ord-end-word.png){ width="310" } | **only available inline** |
+![comparison-ord-end-word](../assets/comparison-ord-end-word.png){ width="310" } | ***- only available inline*** |
 
 ## Question Type Differences
 

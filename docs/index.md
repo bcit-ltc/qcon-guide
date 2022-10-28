@@ -37,7 +37,7 @@ Before using Qcon you’ll need to follow some simple formatting rules.
 
     !!! info inline end ""
     
-        ![sample-question](./assets/sample-question.png){ width="180" }
+        ![sample-question](./assets/basic-sample-question.png){ width="180" }
 
     Questions should *begin with a number* followed by either a period (**.**) or a right parenthesis (**)**), a space, and then the question text.
     

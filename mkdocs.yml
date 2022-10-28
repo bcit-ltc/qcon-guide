@@ -49,9 +49,8 @@ markdown_extensions:
 
 nav:
   - index.md
-  - basic-question-types.md
-  - media-links.md
   - qcon-process.md
+  - basic-question-types.md
   - Question Type Details:
       - 'True/False (TF)': 'detailed-question-types/true-false.md'
       - 'Multiple Choice (MC)': 'detailed-question-types/multiple-choice.md'
@@ -61,8 +60,11 @@ nav:
       - 'Matching (MAT)': 'detailed-question-types/matching.md'
       - 'Ordering (ORD)': 'detailed-question-types/ordering.md'
   -  Additional Information:
+      - additional-info/media-links.md
       - additional-info/sections.md
-      - 'Ordered List Details': 'additional-info/ordered-list-details.md'
+      - additional-info/points.md
+      - additional-info/titles-short-descriptions.md
       - 'Using an Answer Key': 'additional-info/end-answer-key.md' 
       - 'Randomizing Answers': 'additional-info/answer-randomization.md'
+      - 'Ordered List Details': 'additional-info/ordered-list-details.md'
       - additional-info/migrating-from-respondus.md

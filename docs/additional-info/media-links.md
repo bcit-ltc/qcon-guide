@@ -9,7 +9,7 @@ hide:
 
 !!! tip inline end "Embedding Images"
 
-    ![example-image](./assets/image-in-line-with-text.png){ align=right }
+    ![image in-line-with-text](../assets/image-in-line-with-text.png){ align=right }
 
 Images can be added to questions as long as they are **In Line with Text**.
 
@@ -23,7 +23,7 @@ If your image changes location after completing the steps above, reposition the 
 
 ## Videos
 
-Currently, QCon doesn't accept embedded videos. Please add videos after the questions have been imported into your LMS.
+Currently, QCon doesn't accept embedded videos. Please either add a link to a video or add embedded videos after the questions have been imported into your LMS.
 
 ## Web Links
 

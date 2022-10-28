@@ -2,10 +2,10 @@
 
 !!! note
 
-    - Questions should be using numerics (e.g.: `1.`, `1)`)
-    - Answers that needed an ordered list should be using a letter (e.g.: `a.`, `a)`)
-    - The list delimiter should be either a dot (`.`) or a closing parenthesis (`)`)
-    - Ordered list that is part of the question should NOT be using numerics for now (work in progress)
+    - questions should use numerics (e.g.: `1.`, `1)`)
+    - answers that need an ordered list should use a letter (e.g.: `a.`, `a)`)
+    - the list delimiter should be either a dot (`.`) or a closing parenthesis (`)`)
+    - ordered lists that are part of the question should NOT use numerics for now (work in progress)
 
 ## Ordered list example
 

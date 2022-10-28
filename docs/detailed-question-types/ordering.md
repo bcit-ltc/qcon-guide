@@ -21,7 +21,23 @@ An ordering question asks the participant to list terms in a correct sequence.
 
 === "Output"
 
-    ![preview-ord](../assets/preview-ord.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+
+            ![example-ord](../assets/example-ord.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ## With general feedback
 
@@ -39,8 +55,25 @@ An ordering question asks the participant to list terms in a correct sequence.
 
 === "Output"
 
-    ![preview-ord-general](../assets/preview-ord-general.png)
+    === "Brightspace D2L"
 
+        !!! quote ""
+
+            ![example-ord-general](../assets/example-ord-general.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
+
+<!-- markdownlint-disable MD033 -->
 ## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
@@ -59,4 +92,20 @@ An ordering question asks the participant to list terms in a correct sequence.
 
 === "Output"
 
-    ![preview-ord](../assets/preview-ord.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+
+            ![example-ord](../assets/example-ord.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->

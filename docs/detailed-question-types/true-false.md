@@ -16,7 +16,23 @@ Correct answers are specified *inline* with an asterisk (*****).
 
 === "Output"
 
-    ![preview-tf](../assets/preview-tf.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+        
+            ![example-tf](../assets/example-tf.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ## With general feedback
 
@@ -30,7 +46,23 @@ Correct answers are specified *inline* with an asterisk (*****).
 
 === "Output"
 
-    ![preview-tf-general](../assets/preview-tf-general.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+        
+            ![example-tf-general](../assets/example-tf-general.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ## With option-specific feedback
 
@@ -45,8 +77,25 @@ Correct answers are specified *inline* with an asterisk (*****).
 
 === "Output"
 
-    ![preview-tf-specific](../assets/preview-tf-specific.png)
+    === "Brightspace D2L"
 
+        !!! quote ""
+        
+            ![example-tf-specific](../assets/example-tf-specific.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
+
+<!-- markdownlint-disable MD033 -->
 ## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
@@ -67,4 +116,20 @@ Correct answers are specified *inline* with an asterisk (*****).
 
 === "Output"
 
-    ![preview-basic-tf](../assets/preview-tf.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+        
+            ![example-tf](../assets/example-tf.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->

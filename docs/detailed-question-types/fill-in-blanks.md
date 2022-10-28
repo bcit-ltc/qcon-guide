@@ -14,7 +14,23 @@ For each word(s) that will be blank, use square brackets and then include all ac
 
 === "Output"
 
-    ![preview-fib](../assets/preview-fib.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+        
+            ![example-fib](../assets/example-fib.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ## With general feedback
 
@@ -25,8 +41,25 @@ For each word(s) that will be blank, use square brackets and then include all ac
 
 === "Output"
 
-    ![preview-fib-general](../assets/preview-fib-general.png)
+    === "Brightspace D2L"
 
+        !!! quote ""
+        
+            ![example-fib-general](../assets/example-fib-general.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
+
+<!-- markdownlint-disable MD033 -->
 ## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
@@ -51,4 +84,20 @@ For each word(s) that will be blank, use square brackets and then include all ac
 
 === "Output"
 
-    ![preview-fib](../assets/preview-fib.png)
+    === "Brightspace D2L"
+
+        !!! quote ""
+
+            ![example-fib](../assets/example-fib.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->

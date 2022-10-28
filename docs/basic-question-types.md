@@ -1,13 +1,13 @@
----
-title: Basic Question Types
----
-
-<!-- markdownlint-disable MD025 -->
-# Basic Question Types with *Inline* Answers
+# Basic Question Types
 
 The examples below represent straight-forward versions of each question type with the correct answer(s) indicated.
 
-Additional options and question type details are available through the links in the navigation menu.
+Additional details about each question type are available through the links in the navigation menu.
+
+!!! note
+
+    - The examples below demonstrate how to specify correct answers *inline* (recommended). See [using an *answer key*](https://qcon-guide.ltc.bcit.ca/additional-info/end-answer-key/) for an alternate method.
+    - An [example Word document](./assets/basic-question-types.docx) was used to generate the **Output** below.
 
 ## True/False (TF)
 
@@ -19,7 +19,7 @@ Additional options and question type details are available through the links in 
 
 === "Output"
 
-    ![preview-true-false](./assets/preview-tf.png){ width="280" }
+    ![preview true-false](./assets/preview-tf.png){ width="280" }
 
 ## Multiple Choice (MC)
 
@@ -33,7 +33,7 @@ Additional options and question type details are available through the links in 
 
 === "Output"
 
-    ![preview-multiple-choice](./assets/preview-mc.png){ width="350" }
+    ![preview multiple choice](./assets/preview-mc.png){ width="350" }
 
 ## Multi-Select (MS)
 
@@ -47,7 +47,7 @@ Additional options and question type details are available through the links in 
 
 === "Output"
 
-    ![preview-multiple-select](./assets/preview-ms.png){ width="380" }
+    ![preview multiple-select](./assets/preview-ms.png){ width="380" }
 
 ## Written Response/Long-Answer/Essay (WR)
 
@@ -58,7 +58,7 @@ Additional options and question type details are available through the links in 
 
 === "Output"
 
-    ![preview-written-response](./assets/preview-wr.png){ width="555" }
+    ![preview written response](./assets/preview-wr.png){ width="555" }
 
 ## Fill-in-Blank (FIB)
 
@@ -70,7 +70,7 @@ For each word(s) that will be blank, use square brackets and then include all ac
 
 === "Output"
 
-    ![preview-fill-in-blank](./assets/preview-fib.png){ width="475" }
+    ![preview fill-in-blank](./assets/preview-fib.png){ width="475" }
 
 ## Matching (MAT)
 
@@ -85,7 +85,7 @@ List each matching pair in an ordered alpha list. Use an equals (=) sign flanked
 
 === "Output"
 
-    ![preview-matching](./assets/preview-mat.png){ width="505" }
+    ![preview matching](./assets/preview-mat.png){ width="505" }
 
 ## Ordering (ORD)
 
@@ -102,4 +102,4 @@ Use an ordered alpha list to arrange the answer options in the correct sequence:
 
 === "Output"
 
-    ![preview-ordering](./assets/preview-ord.png){ width="350" }
+    ![preview ordering](./assets/preview-ord.png){ width="350" }
