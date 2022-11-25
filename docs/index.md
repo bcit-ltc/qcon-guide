@@ -27,21 +27,20 @@ Before using Qcon you’ll need to follow some simple formatting rules.
 
         If there is no **Heading 1** style then the filename will be used instead.
 
-    The first heading in your document will be used as the section name in your question library.
+    - The first heading in your document is used as the section name in your question library.
 
 !!! note "Question numbering"
 
-    All questions should be numbered in sequence.
+    - All questions should be numbered in sequence.
 
 !!! note "Question format"
 
     !!! info inline end ""
     
-        ![sample-question](./assets/sample-question.png){ width="180" }
+        ![sample-question](./assets/basic-sample-question.png){ width="180" }
 
-    Questions should *begin with a number* followed by either a period (**.**) or a right parenthesis (**)**), a space, and then the question text.
-    
-    Use the Word *Numbering* list style for best results.
+    - Questions should *begin with a number* followed by either a period (**.**) or a right parenthesis (**)**), a space, and then the question text.
+    - Use the Word *Numbering* list style for best results.
 
 !!! note "Correct answers"
 
@@ -49,9 +48,8 @@ Before using Qcon you’ll need to follow some simple formatting rules.
 
         Correct answers are indicated with an asterisk (*****).
 
-    Indicate your correct answers with an asterisk or in an answer key section at the end of the document.
-
-    Asterisks should be before the answer text and after the period or parentheses.
+    - Indicate your correct answers with an asterisk or in an answer key section at the end of the document.
+    - Asterisks should be before the answer text and after the period or parentheses.
 
 !!! note "Answer numbering"
 
@@ -59,10 +57,9 @@ Before using Qcon you’ll need to follow some simple formatting rules.
 
         Answers should be lower-case or upper-case alphabet lists.
 
-    Use ordered lists for the answer options.
-
-    Start each answer option with a letter, then a period (**.**) or a right parenthesis (**)**), a space, and then the answer text.
+    - Use ordered lists for the answer options.
+    - Start each answer option with a letter, then a period (**.**) or a right parenthesis (**)**), a space, and then the answer text.
 
 !!! note "Ignored elements"
 
-    Comments, subheadings, footers, and headers will be ignored.
+    - Comments, subheadings, footers, and headers will be ignored.
