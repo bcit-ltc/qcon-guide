@@ -74,18 +74,18 @@ For each word(s) that will be blank, use square brackets and then include all ac
 
 ## Matching (MAT)
 
-List each matching pair in an ordered alpha list. Use an equals (=) sign flanked on each side by a space between each pair of matches:
+List each matching pair in an ordered alpha list. Specify a *choice* as the first term, followed by an equals (**=**) sign, followed by a *match*:
 
 === "Text"
 
         7. Match the correct name to the discovery or theory.
-            a. Michelson-Morely = Speed of light
+            a. Michelson-Morley (choice) = Speed of light (match)
             b. Einstein = Theory of Relativity
             c. Newton = Theory of Gravity
 
 === "Output"
 
-    ![preview matching](./assets/preview-mat.png){ width="505" }
+    ![preview matching](./assets/preview-mat.png){ width="725" }
 
 ## Ordering (ORD)
 
