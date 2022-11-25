@@ -100,7 +100,7 @@ Correct answers are specified *inline* with an asterisk (*****).
 
 !!! note
 
-    Only include the correct option in the answer key, **NOT** the full text.
+    Only include the correct list item in the answer key, **NOT** the full text.
 
 === "Text"
 

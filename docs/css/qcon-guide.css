@@ -22,3 +22,27 @@ code {
     -webkit-mask-image: var(--md-admonition-icon--d2l-preview);
     mask-image: var(--md-admonition-icon--d2l-preview);
   }
+
+.blue {
+  color: rgb(0, 104, 215)
+}
+
+.gold {
+  color: rgb(216, 188, 5)
+}
+
+.green {
+  color:rgb(43, 155, 70)
+}
+
+.red {
+  color:rgb(255,0,0)
+}
+
+.larger {
+  font-size: larger;
+}
+
+.smaller {
+  font-size: smaller;
+}

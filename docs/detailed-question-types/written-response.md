@@ -6,7 +6,7 @@ Written response type questions - also known as long answers or essays - ask the
 
 !!! note
 
-    Correct answers (grading/answer keys) are specified with the words "**Correct answer:**" between the question text and the answer.
+    Correct answers (answer key for evaluators) are specified with the words "**Correct answer:**" between the question text and the answer.
 
 === "Text"
 

@@ -1,6 +1,6 @@
 # The Qcon Process
 
-Qcon converts a Word document into an LMS package file that can be imported into your LMS question library.
+Qcon converts a Word document into a package file that can be imported into your Learning Management System (LMS) question library.
 
 <!--
 ## Retrieve from LMS
@@ -10,15 +10,17 @@ To be added
 ## Publish to LMS
 -->
 
-The general steps are:
+The main steps are:
 
-1. Upload your Word file
-1. Preview questions
-1. Download an LMS package
+1. Create a document of questions using Word
+1. Upload your Word file to Qcon
+1. Preview the questions
+1. Download a package file
+1. Import your package file into the LMS
 
-After downloading the **LMS package** file you must then import it into your LMS. The steps are different depending on which LMS you use.
+!!! note "Import the package file"
 
-!!! note "Import the LMS package file"
+    After downloading the package file you can import it into your LMS. The steps are different depending on which LMS you use.
 
     === "Brightspace D2L"
 
