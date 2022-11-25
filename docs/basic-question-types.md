@@ -49,7 +49,9 @@ Additional details about each question type are available through the links in t
 
     ![preview multiple-select](./assets/preview-ms.png){ width="380" }
 
-## Written Response/Long-Answer/Essay (WR)
+## Written Response (WR)
+
+> Also known as the *Essay* or *Long Answer* question type.
 
 === "Text"
 
@@ -74,7 +76,7 @@ For each word(s) that will be blank, use square brackets and then include all ac
 
 ## Matching (MAT)
 
-List each matching pair in an ordered alpha list. Specify a *choice* as the first term, followed by an equals (**=**) sign, followed by a *match*:
+List each matching pair in an ordered alphabetical list. Specify a *choice first*, followed by an equals (**=**) sign, *followed by a match*.[^1]
 
 === "Text"
 
@@ -89,7 +91,7 @@ List each matching pair in an ordered alpha list. Specify a *choice* as the firs
 
 ## Ordering (ORD)
 
-Use an ordered alpha list to arrange the answer options in the correct sequence:
+Use an ordered alphabetical list to arrange the answer options in the correct sequence:
 
 === "Text"
 
@@ -103,3 +105,5 @@ Use an ordered alpha list to arrange the answer options in the correct sequence:
 === "Output"
 
     ![preview ordering](./assets/preview-ord.png){ width="350" }
+
+[^1]: Matches must have choices in a 1:1 ratio (no blank choices)

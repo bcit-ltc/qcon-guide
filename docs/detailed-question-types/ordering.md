@@ -5,7 +5,7 @@ An ordering question asks the participant to list terms in a correct sequence.
 !!! note
 
     - Answer options are **always** randomized
-    - The default grading method is set to "Correct answers"; this can be changed manually in the LMS.
+    - The default grading method is set to "Equally weighted"; this can be changed manually (see [alternate methods](https://documentation.brightspace.com/EN/le/question_library/instructor/creating_questions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CQuestion%20Library%7C_____1)) in the LMS.
 
 ## Basic example
 

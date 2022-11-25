@@ -5,7 +5,7 @@ Correct answers are specified *inline* with an asterisk (*****).
 !!! note
 
     - If only one correct answer is specified, the question becomes a Multiple Choice type **unless** the text `"Type: MS"` is added before the question text.
-    - The default grading method is set to "Correct answers"; this can be changed manually in the LMS.
+    - The default grading method is set to "Correct Answers, Limited Selections"; this can be changed manually (see [alternate methods](https://documentation.brightspace.com/EN/le/question_library/instructor/creating_questions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CQuestion%20Library%7C_____1)) in the LMS.
 
 ## Basic example
 
@@ -128,7 +128,7 @@ Correct answers are specified *inline* with an asterisk (*****).
 !!! note
 
     - Use a comma (**,**) to separate the correct answers.
-    - Only include the correct options in the answer key, **NOT** the full text.
+    - Only include the correct list items in the answer key, **NOT** the full text.
 
 === "Text"
 

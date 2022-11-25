@@ -18,12 +18,13 @@ If you prefer specifying correct answers with an *answer key* rather than *inlin
 
 === "Text"
 
+    ``` sh
         1. The symbol "Gl" represents the reference electrode:
             1. True
             2. False
 
         2. How does organic friction material differ from semi-metallic materials?
-            1. quieter
+            1. Quieter
             2. More fade resistant
             3. Requires higher pedal pressure
             4. Used on front disc brakes
@@ -34,7 +35,7 @@ If you prefer specifying correct answers with an *answer key* rather than *inlin
             3. Edward Williams Morley
             4. Thomas Edison
 
-        Type: MS
+        Type: MS # (1)!
         4. Which of the following individuals are credited with determining the exact speed of light? Select all that apply.
             1. Nikola Tesla
             2. Albert Michelson
@@ -50,7 +51,6 @@ If you prefer specifying correct answers with an *answer key* rather than *inlin
         8. Put the stages of project management in order.
 
         Answers:
-
         1. b
         2. a
         3. a, b
@@ -59,6 +59,9 @@ If you prefer specifying correct answers with an *answer key* rather than *inlin
         6. rose, flower; sweet, good
         7. Michelson-Morely = Speed of light; Einstein = Theory of Relativity
         8. Initiation; Planning; Execution; Control; Closing
+    ```
+
+    1.  Multi-select with only one answer *in answer key format* requires a **Type: MS**
 
 === "Output"
 
@@ -78,4 +81,5 @@ If you prefer specifying correct answers with an *answer key* rather than *inlin
 
         !!! quote ""
 
-            Coming Soon. -->
+            Coming Soon.
+-->

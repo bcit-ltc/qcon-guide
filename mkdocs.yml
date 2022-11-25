@@ -1,8 +1,8 @@
 site_name: Qcon Guide
 site_url: https://qcon-guide.ltc.bcit.ca
 
-# repo_name: qcon-guide
-# repo_url: https://issues.ltc.bcit.ca/web-apps/qcon/qcon-user-guide
+repo_name: https://qcon.ltc.bcit.ca/
+repo_url: https://qcon.ltc.bcit.ca/
 
 theme:
   name: material
@@ -21,6 +21,9 @@ theme:
     - navigation.sections
     - navigation.instant
     - navigation.top
+    - content.code.annotate
+  icon:
+    repo: fontawesome/solid/link
 
 extra_css:
   - css/qcon-guide.css
@@ -31,6 +34,9 @@ plugins:
 markdown_extensions:
   - abbr
   - pymdownx.highlight
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
   - pymdownx.superfences
   - pymdownx.details
   - admonition
@@ -46,6 +52,9 @@ markdown_extensions:
       permalink: true
   - pymdownx.tabbed:
       alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   - index.md

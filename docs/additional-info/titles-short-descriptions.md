@@ -7,7 +7,7 @@ title: Question Titles
 
 Questions titles or *short descriptions* are text fields that help identify similarly worded questions.
 
-Titles are displayed in the question library only, making them an ideal place to add administrative information.
+Titles are only displayed in the question library which makes them an ideal place to add administrative information like reference codes or subject groupings.
 
 !!! note
 

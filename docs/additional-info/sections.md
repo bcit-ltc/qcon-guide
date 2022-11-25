@@ -6,7 +6,7 @@ Questions can be grouped into separate sections.
 
     - start a new section with **`#section`**
     - end a section with **`/section`**
-    - use Word headings to specify section names
+    - use Word *Heading styles* to specify section names
 
 === "Text"
 

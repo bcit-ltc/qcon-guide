@@ -10,61 +10,45 @@ Qcon improves upon Respondus in two important ways:
 - **it is web-based**, which makes it available to everyone, not just those who run Windows
 - **correct answers have the asterisk *after* the list number**
 
-Qcon has other benefits like *answer key* answers for FIB, MAT, and ORD-type questions and no **Type: ...** requirements, but we'll stop there and let you discover Qcon's usefulness at your own pace!
+Qcon has other benefits like answer key answers for FIB, MAT, and ORD-type questions, no *Type: ...* requirements, and better error messaging, but we'll stop there and let you discover Qcon's usefulness at your own pace!
 
 Here are some examples of the differences between Qcon and Respondus:
 
 ## Multiple Choice (MC)
 
-<!-- markdownlint-disable MD033 -->
-<!-- necessary for positioning -->
-<table markdown>
-  <tr>
-    <th>Qcon</th>
-    <th>Respondus</th>
-  </tr><tr>
-    <td>![comparison-mc-inline-qcon](../assets/comparison-mc-inline-qcon.png){ width="300" }</td>
-    <td>
-      <figure markdown>
-        ![comparison-mc-inline-plain](../assets/comparison-mc-inline-plain.png){ width="380" }
-        <figcaption>- **only available when using plain text or *answer key***</figcaption>
-      </figure>
-    </td>
-  </tr>
-</table>
+> Respondus only imports MC questions when using plain text or an *answer key*.
+
+| Qcon                                | Respondus                          |
+|:-----------------------------------:|:----------------------------------:|
+| ![comparison-mc-inline-qcon](../assets/comparison-ms-inline-qcon.png){ width="300" } | ![comparison-mc-inline-plain](../assets/comparison-ms-inline-plain.png){ width="380" } |
 
 ## Multiple Select (MS)
 
-<table markdown>
-  <tr>
-    <th>Qcon</th>
-    <th>Respondus</th>
-  </tr><tr>
-    <td>![comparison-mc-inline-qcon](../assets/comparison-ms-inline-qcon.png){ width="300" }</td>
-    <td>
-      <figure markdown>
-        ![comparison-mc-inline-plain](../assets/comparison-ms-inline-plain.png){ width="380" }
-        <figcaption>- **only available when using plain text or *answer key***</figcaption>
-      </figure>
-    </td>
-  </tr>
-</table>
+> Respondus only imports MS questions when using plain text or an *answer key*.
+
+| Qcon                                | Respondus                          |
+|:-----------------------------------:|:----------------------------------:|
+| ![comparison-mc-inline-qcon](../assets/comparison-ms-inline-qcon.png){ width="300" } | ![comparison-mc-inline-plain](../assets/comparison-ms-inline-plain.png){ width="380" } |
 
 ## Fill-in-blank (FIB)
 
+> Respondus only imports FIB questions when specifying answers inline.
+
 | Qcon | Respondus |
 |:-------------:|:----------:|
-![comparison-fib-end-word](../assets/comparison-fib-end-word.png){ width="310" } | ***- only available inline*** |
+![comparison-fib-end-word](../assets/comparison-fib-end-word.png){ width="310" } | *not available for answer key format* :unamused: |
 
 ## Ordering (ORD)
 
+> Respondus only imports ORD questions when specifying answers inline.
+
 | Qcon | Respondus |
 |:-------------:|:----------:|
-![comparison-ord-end-word](../assets/comparison-ord-end-word.png){ width="310" } | ***- only available inline*** |
+![comparison-ord-end-word](../assets/comparison-ord-end-word.png){ width="310" } | *not available for answer key format* :unamused: |
 
 ## Question Type Differences
 
-Migrating from Respondus may involve reviewing your documents for the question type codes that are used. Qcon uses slightly different lettering as outlined in the table below:
+Migrating from Respondus may involve reviewing your documents for the question type codes that are used. Qcon accommodates Respondus question type codes, but uses lettering more congruent with the question type name:
 
 |    Question Type   | QCon | Respondus |
 |:-------------------|:----:|:---------:|
