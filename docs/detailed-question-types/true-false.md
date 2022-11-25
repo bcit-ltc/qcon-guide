@@ -8,44 +8,128 @@ Correct answers are specified *inline* with an asterisk (*****).
 
 ## Basic example
 
-    1. Canada Day falls on the first day of July.
-        a. *True
-        b. False
+=== "Text"
+
+        1. Canada Day falls on the first day of July.
+            a. *True
+            b. False
+
+=== "Output"
+
+    === "Brightspace D2L"
+
+        !!! quote ""
+        
+            ![example-tf](../assets/example-tf.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ## With general feedback
 
-    1. Canada Day falls on the first day of July.
-        @feedback: Canada Day is always July 1st of every year.
+=== "Text"
+
+        1. Canada Day falls on the first day of July.
+            @feedback: Canada Day is always July 1st of every year.
+            
+            a. *True
+            b. False
+
+=== "Output"
+
+    === "Brightspace D2L"
+
+        !!! quote ""
         
-        a. *True
-        b. False
+            ![example-tf-general](../assets/example-tf-general.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
 
 ## With option-specific feedback
 
-    1. Canada Day falls on the first day of July.
-        a. *True
-        @feedback: Correct Answer!
+=== "Text"
 
-        b. False
-        @feedback: Canada Day is always July 1st of every year.
+        1. Canada Day falls on the first day of July.
+            a. *True
+            @feedback: Correct Answer!
 
-## With *answer key*
+            b. False
+            @feedback: Canada Day is always July 1st of every year.
+
+=== "Output"
+
+    === "Brightspace D2L"
+
+        !!! quote ""
+        
+            ![example-tf-specific](../assets/example-tf-specific.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
+
+<!-- markdownlint-disable MD033 -->
+## With *answer key* [<small markdown>(info)</small>](../additional-info/end-answer-key.md)
 
 !!! note
 
     Only include the correct option in the answer key, **NOT** the full text.
 
-<!-- markdownlint-disable MD046 -->
-```text
+=== "Text"
 
-1. Canada Day falls on the first day of July.
-    a. True
-    b. False
+        1. Canada Day falls on the first day of July.
+            a. True
+            b. False
 
-2. ...
+        2. ...
 
-Answers:
-    1. a
-    2. ...
+        Answers:
+            1. a
+            2. ...
 
-```
+=== "Output"
+
+    === "Brightspace D2L"
+
+        !!! quote ""
+        
+            ![example-tf](../assets/example-tf.png)
+<!-- 
+    === "Canvas"
+
+        !!! quote ""
+
+            Coming Soon.
+
+    === "Moodle"
+
+        !!! quote ""
+
+            Coming Soon. -->
