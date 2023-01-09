@@ -10,7 +10,7 @@ title: Overview
 <!-- markdownlint-disable MD033 -->
 <figure markdown="1">
 ![word-to-lms](./assets/word-to-lms.png)
-<figcaption>Manage questions using Word.<br>Import/Export them to a Learning Management System.</figcaption>
+<figcaption>Manage questions using Word.<br>Import/Export to a Learning Management System.</figcaption>
 </figure>
 
 To use Qcon your Word file needs to follow some simple formatting rules.
