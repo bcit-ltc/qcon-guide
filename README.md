@@ -1,6 +1,6 @@
-# Qcon User Guide
+# Qcon Guide
 
-End-user information about how to use [Qcon](https://qcon.ltc.bcit.ca).
+Information about how to use [Qcon](https://qcon.ltc.bcit.ca).
 
 ## Developing
 
