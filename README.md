@@ -27,3 +27,11 @@ Information about how to use [Qcon](https://qcon.ltc.bcit.ca).
 ## Example Questions
 
 The example questions used in this guide are stored in `assets > example-questions.docx` and have also been converted and published to the [BCIT Learning Hub LOR](https://learn.bcit.ca/d2l/lor/viewer/view.d2l?ou=6605&loIdentId=41953).
+
+## License
+
+Copyright (c) 2008-2022 [BCIT LTC](https://bcit.ca/ltc)
+
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at <https://mozilla.org/MPL/2.0/>.
