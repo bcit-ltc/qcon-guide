@@ -10,7 +10,7 @@ commonLabels:
   environment: stable
 
 commonAnnotations:
-  version: stable # {"$imagepolicy": "flux-system:qcon-guide:tag"}
+  version: stable # {"$imagepolicy": "qcon:qcon-guide:tag"}
   tab: ${GIT_TAG:=stable}
 
 configMapGenerator:
@@ -30,4 +30,4 @@ patches:
 images:
   - name: "qcon-guide"
     newName: "registry.ltc.bcit.ca/web-apps/qcon/qcon-guide"
-    newTag: "stable" # {"$imagepolicy": "flux-system:qcon-guide:tag"}
+    newTag: "stable" # {"$imagepolicy": "qcon:qcon-guide:tag"}
