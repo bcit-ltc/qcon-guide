@@ -1,22 +1,16 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
 namespace: qcon
-
 resources:
   - ../../base
-
 commonLabels:
   environment: stable
-
 commonAnnotations:
-  version: stable # {"$imagepolicy": "qcon:qcon-guide:tag"}
-
+  version: 1.6.3 # {"$imagepolicy": "qcon:qcon-guide:tag"}
 images:
   - name: "qcon-guide"
     newName: "registry.ltc.bcit.ca/web-apps/qcon/qcon-guide"
-    newTag: "stable" # {"$imagepolicy": "qcon:qcon-guide:tag"}
-
+    newTag: "1.6.3" # {"$imagepolicy": "qcon:qcon-guide:tag"}
 # Adds elasticapm config to deployment
 #
 patches:
@@ -26,7 +20,6 @@ patches:
       - op: add
         path: /spec/template/spec/containers/0/envFrom
         value: [{"configMapRef": {"name":"elasticapm-config"}}]
-
 # Generates elasticapm config
 #
 configMapGenerator:
