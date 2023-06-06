@@ -11,14 +11,14 @@ commonLabels:
 
 commonAnnotations:
   version: stable # {"$imagepolicy": "qcon:qcon-guide:tag"}
-  tab: ${GIT_TAG:=stable}
 
-configMapGenerator:
-  - name: elasticapm-config
-    literals:
-      - ELASTIC_APM_SERVICE_NAME=qcon-guide-stable
-      - ELASTIC_APM_SERVER_URL=https://bcit-ltc.apm.westus2.azure.elastic-cloud.com
+images:
+  - name: "qcon-guide"
+    newName: "registry.ltc.bcit.ca/web-apps/qcon/qcon-guide"
+    newTag: "stable" # {"$imagepolicy": "qcon:qcon-guide:tag"}
 
+# Adds elasticapm config to deployment
+#
 patches:
   - target:
       kind: Deployment
@@ -27,7 +27,10 @@ patches:
         path: /spec/template/spec/containers/0/envFrom
         value: [{"configMapRef": {"name":"elasticapm-config"}}]
 
-images:
-  - name: "qcon-guide"
-    newName: "registry.ltc.bcit.ca/web-apps/qcon/qcon-guide"
-    newTag: "stable" # {"$imagepolicy": "qcon:qcon-guide:tag"}
+# Generates elasticapm config
+#
+configMapGenerator:
+  - name: elasticapm-config
+    literals:
+      - ELASTIC_APM_SERVICE_NAME=qcon-guide-stable
+      - ELASTIC_APM_SERVER_URL=https://bcit-ltc.apm.westus2.azure.elastic-cloud.com
