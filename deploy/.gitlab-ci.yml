@@ -143,7 +143,7 @@ variables:
 
   # Set COMMON_NAMESPACE to combine apps into one namespace
   #
-  # COMMON_NAMESPACE: ""
+  COMMON_NAMESPACE: "qcon"
 
 
   # Set SKIP_BUILD to skip the build stage and deploy the latest image
