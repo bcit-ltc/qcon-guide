@@ -14,4 +14,4 @@ commonAnnotations:
 images: # kpt-set: ${IMAGE_REF}
   - name: "qcon-guide"
     newName: "registry.ltc.bcit.ca/web-apps/qcon/qcon-guide"
-    newTag: "2.4.1-75ee1728--2023-04-23--257" # {"$imagepolicy": "flux-system:qcon-guide-web:tag"}
+    newTag: "2.4.1-75ee1728--2023-04-23--257" # {"$imagepolicy": "flux-system:qcon-guide-web-image-policy:tag"}
