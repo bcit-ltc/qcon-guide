@@ -12,6 +12,9 @@ commonLabels:
   app: qcon-guide
   app.kubernetes.io/name: qcon-guide
 
+
+# Patch nginx base; simplify deployment name
+#
 patches:
   - target:
       kind: Deployment
@@ -25,4 +28,6 @@ patches:
       - op: add
         path: /spec/template/spec/serviceAccountName
         value: qcon-guide-serviceaccount
-
+      - op: replace
+        path: /metadata/name
+        value: deployment
