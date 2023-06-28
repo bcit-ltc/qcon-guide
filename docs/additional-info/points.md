@@ -4,17 +4,24 @@ Questions can have various point values.
 
 !!! info
 
-    The default point value is 1.
+    - The default point value for each question is 1
+    - The `Points:` property only applied to that particular question and is not carried over to the next question
 
 !!! note
 
     - add the text **`Points:`** above the question text with the desired point value
 
 === "Text"
-
-    !!! quote ""
-
-        ![example-points](../assets/example-points-word.png){ width="620" }
+        Points: 3
+        1. When is Labour Day celebrated each year?
+            a. The first Monday in August
+            b. The second Monday in October
+            c. *The first Monday in September
+            d. The third Monday of May
+        
+        2. Canada Day falls on the first day of July.
+            a. *True
+            b. False
 
 === "Output"
 
@@ -22,7 +29,7 @@ Questions can have various point values.
 
         !!! quote ""
 
-            ![example-points-in-lms](../assets/example-points-d2l.png){ width="320" }
+            ![example-points-in-lms](../assets/example-points-d2l.png)
 <!-- 
     === "Canvas"
 
