@@ -14,10 +14,12 @@ Titles are only displayed in the question library which makes them an ideal plac
     - add the text **`Title:`** above the question text with the desired description
 
 === "Text"
-
-    !!! quote ""
-
-        ![example-title](../assets/example-title-word.png){ width="620" }
+        Title: Labour Day Question
+        1. When is Labour Day celebrated each year?
+            a. The first Monday in August
+            b. The second Monday in October
+            c. *The first Monday in September
+            d. The third Monday of May
 
 === "Output"
 
@@ -25,7 +27,7 @@ Titles are only displayed in the question library which makes them an ideal plac
 
         !!! quote ""
 
-            ![example-title-in-lms](../assets/example-title-d2l.png){ width="320" }
+            ![example-title-in-lms](../assets/example-title-d2l.png)
 <!-- 
     === "Canvas"
 
