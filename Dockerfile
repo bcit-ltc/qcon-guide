@@ -3,18 +3,22 @@ FROM squidfunk/mkdocs-material as build
 
 WORKDIR /docs
 
-COPY . ./
-
 RUN set -ex \
     && pip install \
         Pygments \
         pymdown-extensions \
+        mkdocs-git-revision-date-localized-plugin \
+    ;
+
+COPY . ./
+
+RUN set -ex \
     && mkdocs build --site-dir /public \
     ;
 
 
 ## Release
-FROM nginxinc/nginx-unprivileged:1.20
+FROM nginxinc/nginx-unprivileged:1.23
 
 LABEL maintainer courseproduction@bcit.ca
 

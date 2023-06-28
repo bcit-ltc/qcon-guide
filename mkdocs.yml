@@ -1,7 +1,7 @@
 site_name: Qcon Guide
 site_url: https://qcon-guide.ltc.bcit.ca
 
-repo_name: https://qcon.ltc.bcit.ca/
+repo_name: qcon.ltc.bcit.ca
 repo_url: https://qcon.ltc.bcit.ca/
 
 theme:
@@ -21,15 +21,23 @@ theme:
     - navigation.sections
     - navigation.instant
     - navigation.top
+    - navigation.footer
     - content.code.annotate
   icon:
     repo: fontawesome/solid/link
+
+extra:
+  social:
+    - icon: fontawesome/solid/envelope 
+      link: mailto:courseproduction@bcit.ca
 
 extra_css:
   - css/qcon-guide.css
 
 plugins:
   - search
+  - git-revision-date-localized:
+      type: date
 
 markdown_extensions:
   - abbr
