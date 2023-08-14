@@ -15,6 +15,18 @@ title: Overview
 
 To use Qcon your Word file needs to follow some simple formatting rules.
 
+!!! note "Question types"
+
+    !!! info inline end ""
+
+        | :fontawesome-solid-check:{ .green .larger }                                        | :fontawesome-solid-check:{ .green .larger }              |
+        |:----------------------------------------------------------------------------------:|:------------------------------------------------------:|
+        | <br>1. ... &nbsp; &nbsp;<br> &nbsp;a. *...<br>b. ...<br><br><br>1. ... &nbsp; &nbsp;<br> &nbsp;A. \*... <br> B. ... | Type: MC &nbsp; &nbsp;<br> &nbsp; 1. ... &nbsp; &nbsp;<br> &nbsp;\*a. ...<br> &nbsp;b. ...<br> <br> Type: MC &nbsp; &nbsp;<br> 1. ... &nbsp; &nbsp;<br> &nbsp;*A. ... <br> &nbsp;B. ... |
+
+    - No need to specify the question `Type:` for [basic question types](./basic-question-types.md).
+    
+
+
 !!! note "Question numbering"
 
     !!! info inline end ""

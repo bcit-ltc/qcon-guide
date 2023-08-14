@@ -6,7 +6,8 @@ Questions can be grouped into separate sections.
 
     - start a new section with **`#section`**
     - end a section with **`/section`**
-    - use Word *Heading styles* to specify section names
+    - use Word *Heading 1* at the start of the Document to name the Quiz
+    - use Word *Heading 2* to specify section names
 
 === "Text"
 
