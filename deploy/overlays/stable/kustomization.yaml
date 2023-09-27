@@ -3,6 +3,9 @@ kind: Kustomization
 namespace: qcon
 resources:
   - ../../base
+# Resource names in a shared namespace must be unique
+#
+namePrefix: qcon-guide-
 commonLabels:
   environment: stable
 commonAnnotations:
@@ -11,19 +14,10 @@ images:
   - name: "qcon-guide"
     newName: "registry.ltc.bcit.ca/web-apps/qcon/qcon-guide"
     newTag: "1.6.10" # {"$imagepolicy": "qcon:qcon-guide-image-policy:tag"}
-# Adds elasticapm config to deployment
-#
-patches:
-  - target:
-      kind: Deployment
-    patch: |-
-      - op: add
-        path: /spec/template/spec/containers/0/envFrom
-        value: [{"configMapRef": {"name":"elasticapm-config"}}]
-# Generates elasticapm config
+# Updates elasticapm config
 #
 configMapGenerator:
   - name: elasticapm-config
     literals:
       - ELASTIC_APM_SERVICE_NAME=qcon-guide-stable
-      - ELASTIC_APM_SERVER_URL=https://bcit-ltc.apm.westus2.azure.elastic-cloud.com
+    behavior: merge

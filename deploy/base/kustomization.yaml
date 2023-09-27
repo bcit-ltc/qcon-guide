@@ -1,7 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-namePrefix: qcon-guide-
+# If workloads share a common namespace, set the `namePrefix` in the overlay
+#   `kustomization.yaml` to avoid name collisions.
+#
+# namePrefix: qcon-guide-
 
 resources:
   - ./nginx-unprivileged
@@ -31,3 +34,14 @@ patches:
       - op: replace
         path: /metadata/name
         value: deployment
+      - op: add
+        path: /spec/template/spec/containers/0/envFrom
+        value: [{"configMapRef": {"name":"elasticapm-config"}}]
+
+# Generates elasticapm config
+#
+configMapGenerator:
+  - name: elasticapm-config
+    literals:
+      - ELASTIC_APM_SERVER_URL=https://bcit-ltc.apm.westus2.azure.elastic-cloud.com
+
