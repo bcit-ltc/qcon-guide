@@ -9,11 +9,11 @@ namePrefix: qcon-guide-
 commonLabels:
   environment: stable
 commonAnnotations:
-  version: 1.6.10 # {"$imagepolicy": "qcon:qcon-guide-image-policy:tag"}
+  version: 1.6.11 # {"$imagepolicy": "qcon:qcon-guide-image-policy:tag"}
 images:
   - name: "qcon-guide"
     newName: "registry.ltc.bcit.ca/web-apps/qcon/qcon-guide"
-    newTag: "1.6.10" # {"$imagepolicy": "qcon:qcon-guide-image-policy:tag"}
+    newTag: "1.6.11" # {"$imagepolicy": "qcon:qcon-guide-image-policy:tag"}
 # Updates elasticapm config
 #
 configMapGenerator:
