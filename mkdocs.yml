@@ -11,7 +11,6 @@ theme:
     scheme: default
     primary: teal
     accent: green
-  # Necessary for search to work properly
   include_search_page: false
   search_index_only: true
   language: en
@@ -48,8 +47,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - admonition
-  - pymdownx.tabbed:
-      alternate_style: true
   - attr_list
   - def_list
   - pymdownx.tasklist:
@@ -60,9 +57,12 @@ markdown_extensions:
       permalink: true
   - pymdownx.tabbed:
       alternate_style: true 
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - index.md
