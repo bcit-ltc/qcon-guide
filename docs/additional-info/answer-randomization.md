@@ -28,7 +28,7 @@ Only Multiple Choice (MC) and Multiple-Select (MS) types can have randomized ans
 
     Check the **Randomize all** option on the *Upload a File* page.
 
-    ![Randomize in web page](../assets/randomize.jpg){ width="450" }
+    ![Randomize in web page](../assets/randomize.png){ width="450" }
 
 === "Individual questions"
 
