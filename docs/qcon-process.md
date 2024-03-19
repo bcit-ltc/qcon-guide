@@ -39,23 +39,21 @@ The conversion process is a series of steps that Qcon takes to convert your Word
 
     After downloading the ZIP file, you can upload it into your course in Learning Hub.
 
-    === "Upload ZIP file to Learning Hub"
-        1. Navigate to your course offering in Learning Hub
-        1. Navigate to the **Quizzes**
-            ![1-nav-to-quizzes](./assets/1-nav-to-quizzes.png)
-        1. Click into the **Question Library**
-            ![2-click-question-library](./assets/2-click-question-library.png)
-        1. Click the **Import** button and the **Upload a File** link; follow the instructions to upload your ZIP file
-            ![3-upload-zip-file](./assets/3-upload-zip-file.png)
-            ![4-upload-area](./assets/4-upload-area.png)
-            ![5-import-all](./assets/5-import-all.png)
-        1. Verify that your questions were imported successfully into a **Section** with the same name as your file
-            ![6-verify-section](./assets/6-verify-section.png)
+    1. Navigate to your course offering in Learning Hub
+    1. Navigate to the **Quizzes**
+        ![1-nav-to-quizzes](./assets/1-nav-to-quizzes.png)
+    1. Click into the **Question Library**
+        ![2-click-question-library](./assets/2-click-question-library.png)
+    1. Click the **Import** button and the **Upload a File** link; follow the instructions to upload your ZIP file
+        ![3-upload-zip-file](./assets/3-upload-zip-file.png)
+        ![4-upload-area](./assets/4-upload-area.png)
+        ![5-import-all](./assets/5-import-all.png)
+    1. Verify that your questions were imported successfully into a **Section** with the same name as your file
+        ![6-verify-section](./assets/6-verify-section.png)
 
 ???- failure "Failed to upload ZIP file to Learning Hub"
-    === "Failed File Upload"
-        If you encounter any errors during the uploading process, please contact us at [courseproduction@bcit.ca](mailto:courseproduction@bcit.ca) for assistance.
-        ![7-failed-upload](./assets/7-failed-upload.png)
+    If you encounter any errors during the uploading process, please contact us at [courseproduction@bcit.ca](mailto:courseproduction@bcit.ca) for assistance.
+    ![7-failed-upload](./assets/7-failed-upload.png)
 
 ## Creating Quiz in Learning Hub
 
