@@ -27,6 +27,16 @@ To position an image correctly:
 
 If your image changes location after completing the steps above, reposition the image by dragging it to where you want it.
 
+If you use the editing tools in Word to crop or resize an image, you have to compress the image or it will show the uncropped or resized version of the image. Do the following to compress the image:
+
+1. Select/click the image on the Word document
+1. Once you're in the **Picture Format** tab, click on the Compress Pictures button
+    ![compress-pictures](../assets/compress-pictures.png)
+1. In the **Compress Pictures** dialog box, select the **Apply only to this picture**, **Delete cropped areas of pictures**, and **use default resolution** options
+    ![compress-pictures-2](../assets/compress-pictures-2.png)
+1. Click **OK**
+
+
 ## Videos
 
 Currently, QCon doesn't accept embedded videos. Please either add a link to a video or add embedded videos after the questions have been imported into your LMS.

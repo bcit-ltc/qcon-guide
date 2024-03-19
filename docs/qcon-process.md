@@ -27,26 +27,19 @@ The conversion process is a series of steps that Qcon takes to convert your Word
     1. Qcon will display a preview of your questions
     1. Review the questions to ensure they are correct
     1. If you need to make changes, re-upload your Word file and repeat the process
-???- "Step 4: Download your SCORM ZIP file"
+???- "Step 4: Download your ZIP file"
 
-    1. Click the **Create Download Package** button
-    1. Follow the instructions how to use the scorm package file in your LMS
-    1. Click the **Download SCORM Package** button
+    1. Click the **Next** button
+    1. Follow the instructions how to upload the ZIP file in your LMS
+    1. Click the **Download ZIP file** button
 
 
-## Uploading the SCORM ZIP file to Learning Hub
-!!! note "Uploading the SCORM ZIP file to Learning Hub"
+## Uploading the course package ZIP file to Learning Hub
+!!! note "Uploading the ZIP file to Learning Hub"
 
     After downloading the ZIP file, you can upload it into your course in Learning Hub.
 
     === "Upload ZIP file to Learning Hub"
-        1. Navigate to your course offering in Learning Hub
-        1. Navigate to the **Quizzes**
-        1. Click into the **Question Library**
-        1. Click the **Import** button and the **Upload a File** link; follow the instructions to upload your ZIP file
-        1. Verify that your questions were imported successfully into a **Section** with the same name as your file
-    
-    === "Upload ZIP file to Learning Hub (with images)"
         1. Navigate to your course offering in Learning Hub
         1. Navigate to the **Quizzes**
             ![1-nav-to-quizzes](./assets/1-nav-to-quizzes.png)
@@ -62,7 +55,7 @@ The conversion process is a series of steps that Qcon takes to convert your Word
 ???- failure "Failed to upload ZIP file to Learning Hub"
     === "Failed File Upload"
         If you encounter any errors during the uploading process, please contact us at [courseproduction@bcit.ca](mailto:courseproduction@bcit.ca) for assistance.
-        ![7-failed-upload](7-failed-upload.png)
+        ![7-failed-upload](./assets/7-failed-upload.png)
 
 ## Creating Quiz in Learning Hub
 

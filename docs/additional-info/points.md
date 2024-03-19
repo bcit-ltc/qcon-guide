@@ -5,7 +5,7 @@ Questions can have various point values.
 !!! info
 
     - The default point value for each question is 1
-    - The `Points:` property only applied to that particular question and is not carried over to the next question
+    - The `Points:` property only applied to that particular question and **is NOT** carried over to the next question
 
 !!! note
 

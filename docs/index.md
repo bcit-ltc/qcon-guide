@@ -21,8 +21,7 @@ To use Qcon your Word file needs to follow some simple formatting rules.
 
         | :fontawesome-solid-check:{ .green .larger }                                        | :fontawesome-solid-check:{ .green .larger }              |
         |:----------------------------------------------------------------------------------:|:------------------------------------------------------:|
-        | <br>1. ... &nbsp; &nbsp;<br> &nbsp;a. *...<br>b. ...<br><br><br>1. ... &nbsp; &nbsp;<br> &nbsp;A. \*... <br> B. ... | Type: MC &nbsp; &nbsp;<br> &nbsp; 1. ... &nbsp; &nbsp;<br> &nbsp;\*a. ...<br> &nbsp;b. ...<br> <br> Type: MC &nbsp; &nbsp;<br> 1. ... &nbsp; &nbsp;<br> &nbsp;*A. ... <br> &nbsp;B. ... |
-
+        | 1. ... &nbsp; &nbsp;<br> &nbsp;a. *...<br>b. ... | 1. ... &nbsp; &nbsp;<br> &nbsp;A. \*...<br> B. ... 
     - No need to specify the question `Type:` for [basic question types](./basic-question-types.md).
     
 
@@ -44,7 +43,7 @@ To use Qcon your Word file needs to follow some simple formatting rules.
 
         | :fontawesome-solid-check:{ .green .larger } | :fontawesome-solid-xmark:{ .red .larger } |
         |:-------------------------------------------:|:-----------------------------------------:|
-        | 1. ...<br>1) ...                            | **1.**...  &nbsp;<br>**1.**   &nbsp;...   |
+        | 1. ...<br>2) ...                            | **1.**...  &nbsp;<br>**2.**   &nbsp;...   |
 
     - Questions should begin with a number followed by either a period (**.**) or a right parenthesis (**)**), a space, and then the question text.
 
@@ -54,7 +53,7 @@ To use Qcon your Word file needs to follow some simple formatting rules.
 
         | :fontawesome-solid-check:{ .green .larger } | :fontawesome-solid-xmark:{ .red .larger }                         |
         |:-------------------------------------------:|:-----------------------------------------------------------------:|
-        | 1. *****...<br>1.* ...                      | 1. CORRECT<br>1. ==...== &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |
+        | 1. *****...<br>2.* ...                      | 1. CORRECT<br>2. ==...== &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |
 
     - Correct answers have an asterisk (*****).
     - Asterisks should be before the answer text and after the period (**.**) or parentheses (**)**).
@@ -66,7 +65,7 @@ To use Qcon your Word file needs to follow some simple formatting rules.
 
         | :fontawesome-solid-check:{ .green .larger }                                        | :fontawesome-solid-xmark:{ .red .larger }              |
         |:----------------------------------------------------------------------------------:|:------------------------------------------------------:|
-        | 1. ... &nbsp; &nbsp;<br> &nbsp;a. ...<br><br>1. ... &nbsp; &nbsp;<br> &nbsp;A. ... | 1. ...<br> &nbsp;**i.**<br><br>1. ...<br> &nbsp;**1.** |
+        | 1. ... &nbsp; &nbsp;<br> &nbsp;a. ...<br><br>2. ... &nbsp; &nbsp;<br> &nbsp;A. ... | 1. ...<br> &nbsp;**i.**<br><br>1. ...<br> &nbsp;**2.** |
 
     - Answers should be alphabet lists.
     - Start each answer option with a letter, then a period (**.**) or a right parenthesis (**)**), a space, and then the answer text.
