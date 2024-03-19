@@ -13,11 +13,11 @@ nameSuffix: -stable
 configurations:
   - kustomizeconfig.yaml
 commonAnnotations:
-  version: 1.6.14 # {"$imagepolicy": "qcon:qcon-guide-image-policy-stable:tag"}
+  version: 1.6.15 # {"$imagepolicy": "qcon:qcon-guide-image-policy-stable:tag"}
 images:
   - name: "qcon-guide"
     newName: "registry.ltc.bcit.ca/web-apps/qcon/qcon-guide"
-    newTag: "1.6.14" # {"$imagepolicy": "qcon:qcon-guide-image-policy-stable:tag"}
+    newTag: "1.6.15" # {"$imagepolicy": "qcon:qcon-guide-image-policy-stable:tag"}
 patches:
   # Patches deployment with secrets
   - target:
