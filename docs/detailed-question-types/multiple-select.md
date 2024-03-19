@@ -133,13 +133,13 @@ Correct answers are specified *inline* with an asterisk (*****).
 === "Text"
 
         1. Select all of the Federal Holidays from the list below:
-            a. *Victoria Day
+            a. Victoria Day
             b. Canada Day
-            c. *National Day of Truth and Reconciliation
-            d. *Civic Holiday
+            c. National Day of Truth and Reconciliation
+            d. Civic Holiday
             e. Labour Day
             f. Christmas Day
-            g. *Boxing Day
+            g. Boxing Day
 
         2. ...
 

@@ -8,6 +8,7 @@ RUN set -ex \
         Pygments \
         pymdown-extensions \
         mkdocs-git-revision-date-localized-plugin \
+        mkdocs-glightbox \
     ;
 
 COPY . ./
