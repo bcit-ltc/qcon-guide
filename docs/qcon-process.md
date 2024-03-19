@@ -72,8 +72,8 @@ The conversion process is a series of steps that Qcon takes to convert your Word
 
 There are three main categories of errors that can occur during conversion 
 
-1. **Word document errors**.
-1. **Question formatting errors**.
+1. **Word document errors**
+1. **Question formatting errors** [(example)](./assets/demo_process/canadian-holidays-quiz_question_format.docx) 
 1. **System errors**.
 
 The first pass over the document is to check for **Word document errors**. If any are found, the conversion process will stop and you will be notified of the errors. You will need to correct the errors in your Word document and re-upload it to Qcon.
