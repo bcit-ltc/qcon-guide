@@ -6,6 +6,14 @@ For each word(s) that will be blank, use square brackets and then include all ac
 
     - Use a comma (**,**) to separate correct answers.
 
+
+!!! abstract "Example Files"
+    
+    * [FIB_basic_examples.docx :fontawesome-regular-file-word:](../assets/example_files/FIB_basic_examples.docx)
+    * [FIB_variation_examples.docx :fontawesome-regular-file-word:](../assets/example_files/FIB_variation_examples.docx)
+    * [FIB_answer_key_examples.docx :fontawesome-regular-file-word:](../assets/example_files/FIB_answer_key_examples.docx)
+
+
 ## Basic example
 
 === "Text"

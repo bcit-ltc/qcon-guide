@@ -14,10 +14,12 @@ To be added
 
 The conversion process is a series of steps that Qcon takes to convert your Word document into a package file that can be imported into your LMS. The process is automatic and takes a few minutes to complete.
 
-???- "Step 1: Create a document of questions using Word"
+???+ "Step 1: Create a document of questions using Word"
+    **QCon formatting examples file:** [qcon_formatting_examples.docx :fontawesome-regular-file-word:](./assets/example_files/qcon_formatting_examples.docx)
 
     1. The questions should have numerical numbering
     1. The first question must be numbered "1." or "1)"
+
 ???- "Step 2: Upload your Word file to Qcon"
 
     1. Select your Word file from your computer
@@ -71,7 +73,7 @@ The conversion process is a series of steps that Qcon takes to convert your Word
 There are three main categories of errors that can occur during conversion 
 
 1. **Word document errors**
-1. **Question formatting errors** [(example)](./assets/demo_process/canadian-holidays-quiz_question_format.docx) 
+1. **Question formatting errors** [(example)](./assets/example_files/qcon_formatting_examples_with_error.docx)
 1. **System errors**.
 
 The first pass over the document is to check for **Word document errors**. If any are found, the conversion process will stop and you will be notified of the errors. You will need to correct the errors in your Word document and re-upload it to Qcon.

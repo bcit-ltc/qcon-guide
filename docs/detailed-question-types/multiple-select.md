@@ -7,6 +7,14 @@ Correct answers are specified *inline* with an asterisk (*****).
     - If only one correct answer is specified, the question becomes a Multiple Choice type **unless** the text `"Type: MS"` is added before the question text.
     - The default grading method is set to "Correct Answers, Limited Selections"; this can be changed manually (see [alternate methods](https://documentation.brightspace.com/EN/le/question_library/instructor/creating_questions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CQuestion%20Library%7C_____1)) in the LMS.
 
+
+!!! abstract "Example Files"
+    
+    * [MS_basic_examples.docx :fontawesome-regular-file-word:](../assets/example_files/MS_basic_examples.docx)
+    * [MS_variation_examples.docx :fontawesome-regular-file-word:](../assets/example_files/MS_variation_examples.docx)
+    * [MS_answer_key_examples.docx :fontawesome-regular-file-word:](../assets/example_files/MS_answer_key_examples.docx)
+
+
 ## Basic example
 
 === "Text"

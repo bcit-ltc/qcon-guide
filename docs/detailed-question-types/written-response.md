@@ -2,11 +2,19 @@
 
 Written response type questions - also known as long answers or essays - ask the participant to submit paragraph-length responses.
 
-## Basic example
 
 !!! note
 
     Correct answers (answer key for evaluators) are specified with the words "**Correct answer:**" between the question text and the answer.
+
+
+!!! abstract "Example Files"
+    * [WR_basic_examples.docx :fontawesome-regular-file-word:](../assets/example_files/WR_basic_examples.docx)
+    * [WR_variation_examples.docx :fontawesome-regular-file-word:](../assets/example_files/WR_variation_examples.docx)
+    * [WR_answer_key_examples.docx :fontawesome-regular-file-word:](../assets/example_files/WR_answer_key_examples.docx)
+
+
+## Basic example
 
 === "Text"
 

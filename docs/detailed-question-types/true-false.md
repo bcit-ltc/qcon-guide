@@ -6,6 +6,14 @@ Correct answers are specified *inline* with an asterisk (*****).
 
     **Only use the words `True` and `False`** as answer options or the question becomes a Multiple Choice type.
 
+
+!!! abstract "Example Files"
+    
+    * [TF_basic_examples.docx :fontawesome-regular-file-word:](../assets/example_files/TF_basic_examples.docx)
+    * [TF_variation_examples.docx :fontawesome-regular-file-word:](../assets/example_files/TF_variation_examples.docx)
+    * [TF_answer_key_examples.docx :fontawesome-regular-file-word:](../assets/example_files/TF_answer_key_examples.docx)
+
+
 ## Basic example
 
 === "Text"

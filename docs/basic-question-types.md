@@ -7,7 +7,8 @@ Additional details about each question type are available through the links in t
 !!! note
 
     - The examples below demonstrate how to specify correct answers *inline* (recommended). See [using an *answer key*](https://qcon-guide.ltc.bcit.ca/additional-info/end-answer-key/) for an alternate method.
-    - An [example Word document](./assets/basic-question-types.docx) was used to generate the **Output** below.
+    - The Output below was generated using an example Word document:
+        - [basic-question-types.docx :fontawesome-regular-file-word:](./assets/example_files/basic-question-types.docx)
 
 ## True/False (TF)
 
