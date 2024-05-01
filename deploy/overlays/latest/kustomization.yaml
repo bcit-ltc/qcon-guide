@@ -13,11 +13,11 @@ nameSuffix: -latest
 configurations:
   - kustomizeconfig.yaml
 commonAnnotations:
-  version: 1.6.15-5c1e43da--2024-03-19.1710868948 # {"$imagepolicy": "qcon:qcon-guide-image-policy-latest:tag"}
+  version: 1.6.16-180bc854--2024-05-01.1714594691 # {"$imagepolicy": "qcon:qcon-guide-image-policy-latest:tag"}
 images:
   - name: "qcon-guide"
     newName: "registry.ltc.bcit.ca/web-apps/qcon/qcon-guide"
-    newTag: "1.6.15-5c1e43da--2024-03-19.1710868948" # {"$imagepolicy": "qcon:qcon-guide-image-policy-latest:tag"}
+    newTag: "1.6.16-180bc854--2024-05-01.1714594691" # {"$imagepolicy": "qcon:qcon-guide-image-policy-latest:tag"}
 patches:
   # Patches ingress with "latest--"
   - target:
