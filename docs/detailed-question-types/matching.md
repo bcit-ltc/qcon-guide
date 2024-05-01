@@ -17,6 +17,14 @@ Matches are two terms separated by an equals sign (**=**).
 
     <!-- *Choice 2 in this example is a blank (distractor)* -->
 
+
+!!! abstract "Example Files"
+    
+    * [MAT_basic_examples.docx :fontawesome-regular-file-word:](../assets/example_files/MAT_basic_examples.docx)
+    * [MAT_variation_examples.docx :fontawesome-regular-file-word:](../assets/example_files/MAT_variation_examples.docx)
+    * [MAT_answer_key_examples.docx :fontawesome-regular-file-word:](../assets/example_files/MAT_answer_key_examples.docx)
+
+
 ## Basic example
 
 === "Text"

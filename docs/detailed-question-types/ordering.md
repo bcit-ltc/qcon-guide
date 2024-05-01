@@ -7,6 +7,14 @@ An ordering question asks the participant to list terms in a correct sequence.
     - Answer options are **always** randomized
     - The default grading method is set to "Equally weighted"; this can be changed manually (see [alternate methods](https://documentation.brightspace.com/EN/le/question_library/instructor/creating_questions.htm?tocpath=Instructors%7CAssess%20and%20grade%20learners%7CQuestion%20Library%7C_____1)) in the LMS.
 
+
+!!! abstract "Example Files"
+    
+    * [ORD_basic_examples.docx :fontawesome-regular-file-word:](../assets/example_files/ORD_basic_examples.docx)
+    * [ORD_variation_examples.docx :fontawesome-regular-file-word:](../assets/example_files/ORD_variation_examples.docx)
+    * [ORD_answer_key_examples.docx :fontawesome-regular-file-word:](../assets/example_files/ORD_answer_key_examples.docx)
+
+
 ## Basic example
 
 === "Text"

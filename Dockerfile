@@ -9,6 +9,7 @@ RUN set -ex \
         pymdown-extensions \
         mkdocs-git-revision-date-localized-plugin \
         mkdocs-glightbox \
+        mkdocs-minify-plugin \
     ;
 
 COPY . ./

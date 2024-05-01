@@ -6,6 +6,14 @@ Correct answers are specified *inline* with an asterisk (*****).
 
     If more than one correct answer is specified, the question becomes a Multiple-Select type.
 
+
+!!! abstract "Example Files"
+    
+    * [MC_basic_examples.docx :fontawesome-regular-file-word:](../assets/example_files/MC_basic_examples.docx)
+    * [MC_variation_examples.docx :fontawesome-regular-file-word:](../assets/example_files/MC_variation_examples.docx)
+    * [MC_answer_key_examples.docx :fontawesome-regular-file-word:](../assets/example_files/MC_answer_key_examples.docx)
+
+
 ## Basic example
 
 === "Text"
