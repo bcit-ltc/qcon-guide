@@ -1,5 +1,5 @@
 ## Build
-FROM squidfunk/mkdocs-material as build
+FROM squidfunk/mkdocs-material as builder
 
 WORKDIR /docs
 
@@ -20,8 +20,26 @@ RUN set -ex \
 
 
 ## Release
-FROM nginxinc/nginx-unprivileged:1.23
-
+FROM alpine:latest
 LABEL maintainer courseproduction@bcit.ca
 
-COPY --from=build /public /usr/share/nginx/html/
+RUN apk update && apk add ca-certificates iptables ip6tables iproute2 nginx && rm -rf /var/cache/apk/*
+
+# Copy Tailscale binaries from the tailscale image on Docker Hub.
+COPY --from=docker.io/tailscale/tailscale:stable /usr/local/bin/tailscaled /usr/local/bin/tailscaled
+COPY --from=docker.io/tailscale/tailscale:stable /usr/local/bin/tailscale /usr/local/bin/tailscale
+RUN mkdir -p /var/run/tailscale /var/cache/tailscale /var/lib/tailscale
+
+# Copy and run tailscale init script, default nginx config
+COPY docker-entrypoint.sh /usr/local/bin
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+COPY conf.d/default.conf /etc/nginx/http.d/default.conf
+
+# Copy the static site from the builder stage
+COPY --from=builder /public /usr/share/nginx/html/
+
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
+
+EXPOSE 8080
+
+CMD ["nginx", "-g", "daemon off;"]
