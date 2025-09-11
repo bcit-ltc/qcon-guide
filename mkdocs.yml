@@ -1,8 +1,8 @@
 site_name: Qcon Guide
 site_url: https://qcon-guide.ltc.bcit.ca
 
-repo_name: qcon.ltc.bcit.ca
-repo_url: https://qcon.ltc.bcit.ca/
+repo_name: qcon.ltc.bcit.ca   # Hijack icon to point to qcon service
+repo_url: https://qcon.ltc.bcit.ca
 
 theme:
   name: material
@@ -37,6 +37,7 @@ plugins:
   - search
   - git-revision-date-localized:
       type: date
+      fallback_to_build_date: true
   - glightbox
   - minify:
       minify_html: true

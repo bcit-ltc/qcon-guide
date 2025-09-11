@@ -1,7 +1,7 @@
+# Dockerfile
 ## Build
-FROM squidfunk/mkdocs-material as builder
-
-WORKDIR /docs
+FROM squidfunk/mkdocs-material AS build
+WORKDIR /app
 
 RUN set -ex \
     && pip install \
@@ -12,34 +12,16 @@ RUN set -ex \
         mkdocs-minify-plugin \
     ;
 
-COPY . ./
+COPY . /app
 
 RUN set -ex \
-    && mkdocs build --site-dir /public \
-    ;
-
+    && mkdocs build --site-dir /public
 
 ## Release
-FROM alpine:latest
-LABEL maintainer courseproduction@bcit.ca
+FROM nginxinc/nginx-unprivileged:alpine3.22-perl
 
-RUN apk update && apk add ca-certificates iptables ip6tables iproute2 nginx && rm -rf /var/cache/apk/*
+LABEL maintainer=courseproduction@bcit.ca
+LABEL org.opencontainers.image.source="https://github.com/bcit-ltc/qcon-guide"
+LABEL org.opencontainers.image.description="Information about how to use [Qcon](https://qcon.ltc.bcit.ca)."
 
-# Copy Tailscale binaries from the tailscale image on Docker Hub.
-COPY --from=docker.io/tailscale/tailscale:stable /usr/local/bin/tailscaled /usr/local/bin/tailscaled
-COPY --from=docker.io/tailscale/tailscale:stable /usr/local/bin/tailscale /usr/local/bin/tailscale
-RUN mkdir -p /var/run/tailscale /var/cache/tailscale /var/lib/tailscale
-
-# Copy and run tailscale init script, default nginx config
-COPY docker-entrypoint.sh /usr/local/bin
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh
-COPY conf.d/default.conf /etc/nginx/http.d/default.conf
-
-# Copy the static site from the builder stage
-COPY --from=builder /public /usr/share/nginx/html/
-
-ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
-
-EXPOSE 8080
-
-CMD ["nginx", "-g", "daemon off;"]
+COPY --from=build /public /usr/share/nginx/html/
