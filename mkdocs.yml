@@ -6,11 +6,10 @@ repo_url: https://qcon.ltc.bcit.ca
 
 theme:
   name: material
-  custom_dir: overrides
   palette:
-    scheme: default
-    primary: teal
-    accent: green
+    - scheme: default
+      primary: teal
+      accent: green
   include_search_page: false
   search_index_only: true
   language: en
@@ -21,6 +20,7 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.footer
+    - navigation.tracking
     - content.code.annotate
   icon:
     repo: fontawesome/solid/link
@@ -37,6 +37,7 @@ plugins:
   - search
   - git-revision-date-localized:
       type: date
+      # enable_creation_date: true
       fallback_to_build_date: true
   - glightbox
   - minify:
