@@ -1,13 +1,13 @@
 ---
 title: Overview
 ---
-
 <!-- markdownlint-disable MD025 -->
+<!-- markdownlint-disable MD033 -->
+
 # What is Qcon?
 
 **Qcon is a conversion tool that makes it easy to manage online learning questions.**
 
-<!-- markdownlint-disable MD033 -->
 <figure markdown="1">
 ![word-to-lms](./assets/word-to-lms.png)
 <figcaption>Manage questions using Word.<br>Import/Export to a Learning Management System.</figcaption>
