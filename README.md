@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # Qcon Guide
 
 Information about how to use [Qcon](https://qcon.ltc.bcit.ca).
