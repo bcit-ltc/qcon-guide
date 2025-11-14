@@ -17,16 +17,24 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Python
+__pycache__/
+*.pyc
+*.cpython-36.pyc
+migrations/
+
 # Build outputs
 dist/
 build/
 out/
 coverage/
+processed-partials/
 
-# Local scratch / caches (scoped to repo root)
+# Local scratch / caches
 tmp/
 .cache/
 .dockerignore-local
+temp/
 
 # Kubernetes
 charts/**/.tgz
@@ -44,3 +52,15 @@ app-chart/**
 # Logs
 *.log
 logs/
+dev.log
+celery.log
+
+# Miscellaneous
+tests/
+database/
+dump.rdb
+
+# App specific
+# *.css
+*.map
+.sass-cache/

@@ -25,3 +25,4 @@ LABEL org.opencontainers.image.source="https://github.com/bcit-ltc/qcon-guide"
 LABEL org.opencontainers.image.description="Information about how to use [Qcon](https://qcon.ltc.bcit.ca)."
 
 COPY --from=build /public /usr/share/nginx/html/
+COPY conf.d/default.conf /etc/nginx/conf.d/default.conf
